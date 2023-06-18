@@ -9,7 +9,7 @@
 - Yasin Akgül: Product Owner
 - Aysenem Zobalak: Scrum Master
 - Merve Gençer: Developer
-- Ekin Deniz: Developer
+- Ekin Deniz Özcan: Developer
 - Demet Işın: Developer
 
 ## Ürün İsmi
@@ -18,7 +18,7 @@
 
 ## Ürün Açıklaması
 
-- Hayatta kalma
+- Kahramanca hayatta kalmak için mücadele etme zamanı geldi! Düşmanların hüküm sürdüğü bir dünyada, zekice stratejiler geliştirin, silahlarınızı ustalıkla kullanın ve sınırlı kaynakları yöneterek hayatta kalma mücadelesine girişin. Farklı türde düşmanlar, ölümcül silahlar ve hızla yükselen zorluklarla dolu bu eşsiz oyunda, becerilerinizi test edin ve sınırlarınızı aşın. Efsanevi mücadele başlıyor, cesaretinizi gösterme vakti!
 
 ## Ürün Özellikleri
 
@@ -54,13 +54,12 @@ U- 27 Discord Link: https://discord.gg/bumgN9ZGn
 **Sprint içinde tamamlanması tahmin edilen puan** : 100 Puan
 **[Hedef:** Oyun dünyasının temel yapısının ve mekaniklerinin oluşturulması. **]**
 
-- Oyun için fikir oluşturulması 10 P/ 10 P
-- Karakter kontrollerinin oluşturulması ve test edilmesi 10 P/ 10 P
-- Zombi düşmanlarının davranışlarının tasarlanması ve prototipin oluşturulması
-    20P/2 0 P
-- Temel silah mekaniğinin oluşturulması 4 0P/4 0 P
-- Sahnenin temel mekaniklerinin oluşturulması 10P/ 10 P
-- Prototipin iç testlerinin yapılması ve geri bildirimlerin toplanması 10P/ 10 P
+- Oyun için fikir oluşturulması 10P/10P
+- Karakter kontrollerinin oluşturulması ve test edilmesi 10P/10P
+- Zombi düşmanlarının davranışlarının tasarlanması ve prototipin oluşturulması 20P/20P
+- Temel silah mekaniğinin oluşturulması 40P/40P
+- Sahnenin temel mekaniklerinin oluşturulması 10P/10P
+- Prototipin iç testlerinin yapılması ve geri bildirimlerin toplanması 10P/10P
 
 ## Product Backlog:
 
@@ -81,7 +80,7 @@ Sprint board screenshotları:
 
 # Sprint Raporu
 
-## Sprint Planlama Tarihi: 04.06.23 – 18.06.
+## Sprint Planlama Tarihi: 04.06.23 – 18.06.23
 
 
 ## Sprint Süresi: 2 Hafta
