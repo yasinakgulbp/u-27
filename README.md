@@ -71,11 +71,14 @@ belirtilmiştir. Ek olarak, görevler yüksek, orta ve düşük öneme sahip ola
 
 Sprint board screenshotları:
 
-![NPC(Enemy) Attack to Player](https://github.com/yasinakgulbp/u-27/blob/main/images/enemy%20fire.jpg)
-
-![NPC Spawner Çalışmaları](https://github.com/yasinakgulbp/u-27/blob/main/images/spawner.jpg)
+![NPC(Enemy) Attack to Player](https://github.com/yasinakgulbp/u-27/blob/main/images/canbar%C4%B1_particle.jpg?raw=true)
 
 ![HealthBar](https://github.com/yasinakgulbp/u-27/blob/main/images/Hbar.jpg)
+
+![Drone Takip, Auto-aim ve Aoto-fire](https://github.com/yasinakgulbp/u-27/blob/main/images/Dronef.png?raw=true)
+
+![NPC Spawner Çalışmaları](https://github.com/yasinakgulbp/u-27/blob/main/images/NPCSpawner.jpg?raw=true)
+
 
 # Sprint Raporu
 
