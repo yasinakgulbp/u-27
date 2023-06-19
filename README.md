@@ -75,7 +75,7 @@ Sprint board screenshotları:
 
 ![Backlog 2](https://github.com/yasinakgulbp/u-27/blob/main/images/Backlog2.jpg)
 
-![Backlog 3](https://github.com/yasinakgulbp/u-27/blob/main/images/Backlog3.jpg)
+![Backlog 3](https://github.com/yasinakgulbp/u-27/blob/main/images/backlog3.jpg?raw=true)
 
 Ürün Durumu:
 
