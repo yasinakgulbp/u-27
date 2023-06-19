@@ -71,6 +71,14 @@ belirtilmiştir. Ek olarak, görevler yüksek, orta ve düşük öneme sahip ola
 
 Sprint board screenshotları:
 
+![Backlog 1](https://github.com/yasinakgulbp/u-27/blob/main/images/Backlog1.jpg)
+
+![Backlog 2](https://github.com/yasinakgulbp/u-27/blob/main/images/Backlog2.jpg)
+
+![Backlog 3](https://github.com/yasinakgulbp/u-27/blob/main/images/Backlog3.jpg)
+
+Ürün Durumu:
+
 ![NPC(Enemy) Attack to Player](https://github.com/yasinakgulbp/u-27/blob/main/images/canbar%C4%B1_particle.jpg?raw=true)
 
 ![HealthBar](https://github.com/yasinakgulbp/u-27/blob/main/images/Hbar.jpg)
