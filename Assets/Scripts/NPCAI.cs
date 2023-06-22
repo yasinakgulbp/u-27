@@ -14,6 +14,11 @@ public class NPCAI : MonoBehaviour
         _agent = GetComponent<NavMeshAgent>();
     }
 
+    private void Start()
+    {
+        _player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
     private void Update()
     {
         ChasePlayer();
