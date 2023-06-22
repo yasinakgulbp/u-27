@@ -46429,7 +46429,7 @@ MonoBehaviour:
   moveSpeed: 9
   turnSpeed: 10
   maxDistance: 5
-  reactionDistance: 100
+  reactionDistance: 300
   maxAltitude: 10
   randomMoveInterval: 20
 --- !u!135 &2142217716
@@ -47314,7 +47314,7 @@ MonoBehaviour:
   FirePoint: {fileID: 1553425207}
   Fire: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   HitPoint: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
-  fireRate: 3
+  fireRate: 1
 --- !u!1 &6508882912150830842
 GameObject:
   m_ObjectHideFlags: 0

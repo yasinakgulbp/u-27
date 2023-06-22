@@ -107,6 +107,8 @@ public class AutoAimShoot : MonoBehaviour
 
     public void FindNewEnemy()
     {
+        FindEnemies();
+
         if (enemies.Count > 0)
         {
             currentEnemy = FindClosestEnemy();
