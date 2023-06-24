@@ -19,7 +19,7 @@ public class enemy6 : MonoBehaviour
 
     private void SpawnCoin()
     {
-        GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
+        GameObject coin = Instantiate(Resources.Load<GameObject>("Coin"), transform.position, Quaternion.identity);
         coin.SetActive(true);
     }
 }
