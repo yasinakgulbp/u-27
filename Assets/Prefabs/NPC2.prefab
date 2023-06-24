@@ -165,3 +165,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 30
+  coinPrefab: {fileID: 2009970917874335743, guid: b839ac3d6a317c64b98213f9d04c72fb, type: 3}

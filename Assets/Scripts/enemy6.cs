@@ -5,21 +5,21 @@ using UnityEngine;
 public class enemy6 : MonoBehaviour
 {
     public int Health = 10;
-    //public GameObject coinPrefab;
+    public GameObject coinPrefab;
 
     public void Damage(int damage)
     {
         Health -= damage;
         if (Health <= 0)
         {
-            //SpawnCoin();
+            SpawnCoin();
             Destroy(this.gameObject);
         }
     }
 
-    //private void SpawnCoin()
-    //{
-    //    GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
-    //    coin.SetActive(true);
-    //}
+    private void SpawnCoin()
+    {
+        GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
+        coin.SetActive(true);
+    }
 }

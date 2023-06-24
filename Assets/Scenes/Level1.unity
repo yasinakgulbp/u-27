@@ -6034,6 +6034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 10
+  coinPrefab: {fileID: 0}
 --- !u!1 &296827710
 GameObject:
   m_ObjectHideFlags: 0
@@ -17341,6 +17342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 10
+  coinPrefab: {fileID: 0}
 --- !u!4 &788051875
 Transform:
   m_ObjectHideFlags: 0
@@ -39831,6 +39833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 4
+  coinPrefab: {fileID: 0}
 --- !u!4 &1852388620
 Transform:
   m_ObjectHideFlags: 0
@@ -41136,6 +41139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 10
+  coinPrefab: {fileID: 0}
 --- !u!1 &1889053887
 GameObject:
   m_ObjectHideFlags: 0
