@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1843718134821678104}
   - component: {fileID: -6039932529512391493}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Coin3
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4445622226263267075
 MeshFilter:
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 23b5a7042dbbb044d8ce17e87f89b57c, type: 2}
+  - {fileID: 2100000, guid: 2beec12d0c281bd4cbe0b27cabf626dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -160,4 +160,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db138e514e3cba42af3a86c01418cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sliderIncrement: 1
+  sliderIncrement: 15

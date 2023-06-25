@@ -6,6 +6,8 @@ public class enemy6 : MonoBehaviour
 {
     public int Health = 10;
     public GameObject coinPrefab;
+    //public GameObject coinPrefab2;
+    //public GameObject coinPrefab3;
 
     public void Damage(int damage)
     {

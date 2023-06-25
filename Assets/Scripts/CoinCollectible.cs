@@ -42,6 +42,14 @@ public class CoinCollectible : MonoBehaviour
     {
         int currentLevel = int.Parse(levelText.text); // Mevcut level deðerini al
         currentLevel++; // Level deðerini bir arttýr
+        if (currentLevel == 3)
+        {
+            slider.maxValue = 20;
+        }
+        else if (currentLevel == 4)
+        {
+            slider.maxValue = 30;
+        }
         levelText.text = currentLevel.ToString(); // Level Text'i güncelle
     }
 
