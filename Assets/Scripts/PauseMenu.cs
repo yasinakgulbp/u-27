@@ -49,13 +49,14 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
     }
-
-    public void Restart()
+  
+   public void Restart()
     {
         // Sahneyi yeniden yükle
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.buildIndex);
 
+         CoinCollectible.coinCount= 0;
         Time.timeScale = 1f;
         isPaused = false;
     }

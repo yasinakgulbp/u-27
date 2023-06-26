@@ -5,10 +5,10 @@ using TMPro;
 public class CoinCollectible : MonoBehaviour
 {
     public float sliderIncrement = 5f; // Slider'ýn ilerleyeceði deðer
-    private static int coinCount = 0; // Toplanan coin sayýsý, tüm CoinCollectible objeleri arasýnda paylaþýlýr
+    public static int coinCount = 0; // Toplanan coin sayýsý, tüm CoinCollectible objeleri arasýnda paylaþýlýr
     private Slider slider; // Slider referansý
     private TMP_Text levelText; // Level Text referansý
-    private TMP_Text coinCountText; // Coin sayýsý Text referansý
+    public TMP_Text coinCountText; // Coin sayýsý Text referansý
 
 
     private void Start()
@@ -38,7 +38,7 @@ public class CoinCollectible : MonoBehaviour
         }
     }
 
-    private void UpdateLevelText()
+    public void UpdateLevelText()
     {
         int currentLevel = int.Parse(levelText.text); // Mevcut level deðerini al
         currentLevel++; // Level deðerini bir arttýr
@@ -53,7 +53,7 @@ public class CoinCollectible : MonoBehaviour
         levelText.text = currentLevel.ToString(); // Level Text'i güncelle
     }
 
-    private void UpdateCoinCountText()
+    public void UpdateCoinCountText()
     {
         coinCountText.text = "Coin: " + coinCount.ToString(); // Coin sayýsý Text'i güncelle
     }
