@@ -5452,8 +5452,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   coinPrefab: {fileID: 2009970917874335743, guid: b839ac3d6a317c64b98213f9d04c72fb, type: 3}
-  coinPrefab2: {fileID: 0}
-  coinPrefab3: {fileID: 0}
 --- !u!1 &265227381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6326,8 +6324,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   coinPrefab: {fileID: 0}
-  coinPrefab2: {fileID: 0}
-  coinPrefab3: {fileID: 0}
 --- !u!1 &296827710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9060,6 +9056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 446378226}
   - component: {fileID: 446378227}
+  - component: {fileID: 446378228}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -9145,6 +9142,29 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &446378228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446378225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &450441367
 GameObject:
   m_ObjectHideFlags: 0
@@ -17951,8 +17971,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   coinPrefab: {fileID: 0}
-  coinPrefab2: {fileID: 0}
-  coinPrefab3: {fileID: 0}
 --- !u!4 &788051875
 Transform:
   m_ObjectHideFlags: 0
@@ -21800,7 +21818,7 @@ Terrain:
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -32370,6 +32388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477484567}
   - component: {fileID: 1477484568}
+  - component: {fileID: 1477484569}
   m_Layer: 0
   m_Name: Directional light
   m_TagString: Untagged
@@ -32454,6 +32473,29 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1477484569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477484566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1485266801
 GameObject:
   m_ObjectHideFlags: 0
@@ -33542,8 +33584,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2214046715859727477, guid: 06ff28327e4fe83429d0e4703b57afbe, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4202567580866498199, guid: 06ff28327e4fe83429d0e4703b57afbe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab829db36df147042a798f67c32be23d, type: 2}
     - target: {fileID: 4210004974282064460, guid: 06ff28327e4fe83429d0e4703b57afbe, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -33554,7 +33600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4210004974282064460, guid: 06ff28327e4fe83429d0e4703b57afbe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 4210004974282064460, guid: 06ff28327e4fe83429d0e4703b57afbe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33586,6 +33632,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4210004974282064460, guid: 06ff28327e4fe83429d0e4703b57afbe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315850840620279196, guid: 06ff28327e4fe83429d0e4703b57afbe, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -40637,8 +40687,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 4
   coinPrefab: {fileID: 0}
-  coinPrefab2: {fileID: 0}
-  coinPrefab3: {fileID: 0}
 --- !u!4 &1852388620
 Transform:
   m_ObjectHideFlags: 0
@@ -41945,8 +41993,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   coinPrefab: {fileID: 0}
-  coinPrefab2: {fileID: 0}
-  coinPrefab3: {fileID: 0}
 --- !u!1 &1889053887
 GameObject:
   m_ObjectHideFlags: 0
@@ -48040,7 +48086,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 379bedfbc8de0dc43bfe8ba33302cbe7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
