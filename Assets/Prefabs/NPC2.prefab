@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2925066264058035538}
   - component: {fileID: 2411736201453935692}
   - component: {fileID: 7790659943601979624}
+  - component: {fileID: 4351361969221311014}
   m_Layer: 0
   m_Name: NPC2
   m_TagString: Enemy
@@ -166,7 +167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 20
-  coinPrefab: {fileID: 2009970917874335743, guid: b839ac3d6a317c64b98213f9d04c72fb, type: 3}
+  coinPrefab: {fileID: 2009970917874335743, guid: f73de106778511f4e9be6952a97e283a, type: 3}
+  coinPrefab2: {fileID: 2009970917874335743, guid: 9d8c50ddf0049364c8ffbdd1bd9ac729, type: 3}
+  coinPrefab3: {fileID: 2009970917874335743, guid: 2c47d541b462ea9409793cd569d07561, type: 3}
 --- !u!54 &7790659943601979624
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -194,3 +197,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4351361969221311014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668298372477775921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7a0bcbd3891894c80e965dc0e1afc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 10
+  coinPrefab: {fileID: 2009970917874335743, guid: b839ac3d6a317c64b98213f9d04c72fb, type: 3}
+  coinPrefab2: {fileID: 0}
+  coinPrefab3: {fileID: 0}
