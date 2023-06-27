@@ -73,4 +73,12 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         isPaused = true;
     }
+
+    public void ReturnToMainMenu()
+    {
+        // Ýstenilen sahnenin adý
+        string targetSceneName = "MainScene";
+        // Sahneye dön
+        SceneManager.LoadScene(targetSceneName);
+    }
 }
