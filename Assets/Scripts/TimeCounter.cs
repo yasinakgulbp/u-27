@@ -18,6 +18,10 @@ public class TimeCounter : MonoBehaviour
     private void Update()
     {
         currentTime += Time.deltaTime * counterSpeed;
-        counterText.text = currentTime.ToString("F2"); // Sayacý TMP_Text'e yazdýrma
+
+        int minutes = Mathf.FloorToInt(currentTime / 60f); // Dakika hesaplama
+        int seconds = Mathf.FloorToInt(currentTime % 60f); // Saniye hesaplama
+
+        counterText.text = string.Format("{0:00}:{1:00}", minutes, seconds); // Sayacý TMP_Text'e yazdýrma
     }
 }
