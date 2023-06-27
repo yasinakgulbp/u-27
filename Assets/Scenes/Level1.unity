@@ -50234,14 +50234,6 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 6505057340831361182}
-    - target: {fileID: 5686587017696796589, guid: 9cd41696ee806024398c28dac0e2c46b, type: 3}
-      propertyPath: m_Drag
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5686587017696796589, guid: 9cd41696ee806024398c28dac0e2c46b, type: 3}
-      propertyPath: m_Mass
-      value: 200
-      objectReference: {fileID: 0}
     - target: {fileID: 5952389117574925009, guid: 9cd41696ee806024398c28dac0e2c46b, type: 3}
       propertyPath: m_RootOrder
       value: 18
