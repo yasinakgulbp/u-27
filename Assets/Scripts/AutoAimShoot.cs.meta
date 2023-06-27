@@ -3,7 +3,11 @@ guid: 6d3942c94fee7e34080de3c0ebe2396f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - FirePoint: {instanceID: 0}
+  - Fire: {instanceID: 0}
+  - HitPoint: {instanceID: 0}
+  - tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

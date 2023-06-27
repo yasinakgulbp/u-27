@@ -7,6 +7,7 @@ public class AutoAimShoot : MonoBehaviour
     public Transform FirePoint;
     public GameObject Fire;
     public GameObject HitPoint;
+    public GameObject tracerEffectPrefab;
 
     public float fireRate = 0.5f;
     private float nextFireTime = 0f;
@@ -95,6 +96,13 @@ public class AutoAimShoot : MonoBehaviour
 
             Destroy(a, 1);
             Destroy(b, 1);
+
+            // Bullet Tracer efektini oluþtur
+            GameObject tracerEffect = Instantiate(tracerEffectPrefab, FirePoint.position, Quaternion.identity);
+            LineRenderer lineRenderer = tracerEffect.GetComponent<LineRenderer>();
+            lineRenderer.SetPosition(0, FirePoint.position);
+            lineRenderer.SetPosition(1, hit.point);
+            Destroy(tracerEffect, 0.1f);
 
             enemy6 enemy = hit.transform.GetComponent<enemy6>();
 
