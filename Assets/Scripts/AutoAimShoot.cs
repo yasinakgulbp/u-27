@@ -110,6 +110,13 @@ public class AutoAimShoot : MonoBehaviour
             {
                 enemy.Damage(2);
             }
+            //Yeni ekledim denem amaçlý yasin
+            BoxBroke boxs = hit.transform.GetComponent<BoxBroke>();
+
+            if (boxs != null)
+            {
+                boxs.Damage(2);
+            }
         }
     }
 

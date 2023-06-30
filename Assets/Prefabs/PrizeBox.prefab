@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7500490505625046173}
   - component: {fileID: 6542523046188871647}
   - component: {fileID: 2249761852458596488}
-  - component: {fileID: 6481742184923079973}
-  - component: {fileID: 7864382550414864840}
+  - component: {fileID: 4085605375436869432}
+  - component: {fileID: 7911485508607695203}
   m_Layer: 0
   m_Name: PrizeBox
   m_TagString: Enemy
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6481742184923079973
+--- !u!114 &4085605375436869432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,13 +144,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6098910530693595291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c7a0bcbd3891894c80e965dc0e1afc3, type: 3}
+  m_Script: {fileID: 11500000, guid: dd1fefbbf6f6c5f40892b0362a5a0a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 2
-  coinDropper: {fileID: 7864382550414864840}
+  BoxRewardDropper: {fileID: 7911485508607695203}
   coinPrefab: {fileID: 2009970917874335743, guid: d308d4ca99d2209428b95f062421ec1c, type: 3}
---- !u!114 &7864382550414864840
+--- !u!114 &7911485508607695203
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,7 +159,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6098910530693595291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414ae80edbc866a44b62850533d51ce5, type: 3}
+  m_Script: {fileID: 11500000, guid: 27f05edd52a42c742914631a0f30c604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnHeight: 1
+  coinPrefab: {fileID: 2009970917874335743, guid: d308d4ca99d2209428b95f062421ec1c, type: 3}
+  etPrefab: {fileID: 4650695657767843607, guid: eec8581da3b03ad499ee81eac12c896b, type: 3}
+  digerPrefab: {fileID: 4650695657767843607, guid: eec8581da3b03ad499ee81eac12c896b, type: 3}
