@@ -32242,7 +32242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcPrefab: {fileID: 8668298372477775921, guid: 6e148133a86ba634b80d3708a23057bd, type: 3}
-  spawnInterval: 0.5
+  spawnInterval: 2
 --- !u!4 &1420455908
 Transform:
   m_ObjectHideFlags: 0
