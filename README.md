@@ -160,11 +160,16 @@ Sprint board screenshotları:
 
 ## Ürün Durumu:
 
-![1](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu1.png)
+![1](https://github.com/yasinakgulbp/u-27/blob/main/images/urundurumuu.png)
 
 ![2](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu3.png)
 
 ![3](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu2.png)
+
+![4](https://github.com/yasinakgulbp/u-27/blob/main/images/gif_blachole_gun.gif)
+
+![5](https://github.com/yasinakgulbp/u-27/blob/main/images/mimic3.png)
+
 
 # Sprint Raporu
 
