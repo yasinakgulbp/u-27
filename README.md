@@ -149,6 +149,15 @@ yoğun bir sürece hazırlanıyoruz.
 
 Sprint board screenshotları:
 
+![Backlog 1]()
+
+![Backlog 2]()
+
+![Backlog 3]()
+
+## Ürün Durumu:
+
+
 
 # Sprint Raporu
 
@@ -163,42 +172,42 @@ Hedef: Oyun İlerlemesinin ve Özelliklerin Eklenmesi
 ## Özet
 
 Görev 1: Seviye tasarımının oluşturulması ve ilk seviyenin eklenmesi: Oyuncunun farklı seviyelerde ilerlediği bir oyun yapısı oluşturun. Her seviye zorluk açısından artış göstermeli ve daha güçlü düşmanlar içermelidir.
-•	Yeni tip NPC'lerin eklenmesi.
-•	Kullanılacak karakterin tasarımına karar verilecek.
-•	Düşman tasarımına karar verilecek
-•	NPC'lere uygun asset eklenmesi (Mimic asseti vb.)
-•	URP eklenecek.
-•	Yeni tip NPC eklenmesi
+- Yeni tip NPC'lerin eklenmesi.
+- Kullanılacak karakterin tasarımına karar verilecek.
+- Düşman tasarımına karar verilecek
+- NPC'lere uygun asset eklenmesi (Mimic asseti vb.)
+- URP eklenecek.
+- Yeni tip NPC eklenmesi
 
 Görev 2: Ödül sisteminin oluşturulması ve ödüllerin belirlenmesi: Oyuncunun her seviye sonunda ödüller kazanmasını sağlayın. Ödüller, yeni silahlar, geliştirmeler veya oyun içi kaynaklar gibi şeyler olabilir.
-•	Coin sistemi
-•	Coin spawner
-•	Money: Oyun parasının oluşturulması
-•	Kasa Sistemi
-•	Mıknatıs 
+- Coin sistemi
+- Coin spawner
+- Money: Oyun parasının oluşturulması
+- Kasa Sistemi
+- Mıknatıs 
 
 Görev 3: İlerleme Kaydetme: Oyuncunun ilerlemesini kaydeden bir sistem oluşturun. Bu, oyuncunun kaldığı yerden devam edebilmesini ve daha önce açılan ödülleri koruyabilmesini sağlayacaktır.
-•	Save sistemi
-•	UI pause menu 
-•	Gameover Sahnesi
-•	Timer eklenmesi
-•	Timer ile ne saldırı kontrolü (Hangi dakikada ne kadar enemy gelecek gibi)
-•	Spin Çark eklenmesi
-•	Level Up ve Level Bar sisteminin oluşturulması
-•	Main Ekran için UI oluşturulması, giriş ekranı hazırlama
+- Save sistemi
+- UI pause menu 
+- Gameover Sahnesi
+- Timer eklenmesi
+- Timer ile ne saldırı kontrolü (Hangi dakikada ne kadar enemy gelecek gibi)
+- Spin Çark eklenmesi
+- Level Up ve Level Bar sisteminin oluşturulması
+- Main Ekran için UI oluşturulması, giriş ekranı hazırlama
 
 Görev 4: Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi: 3D bir hayatta kalma oyunu için atmosferik bir oyun dünyası tasarlayın. Çevre, zombi tasarımları, oyun nesneleri gibi görsel öğeleri planlayın.
-•	Blackhole gun, portal
-•	silahların özelliğini geliştirme mantığı ayarlama
-•	Bullet Tracer eklenmesi
+- Blackhole gun, portal
+- silahların özelliğini geliştirme mantığı ayarlama
+- Bullet Tracer eklenmesi
 
 Görev 5: İç testlerin yapılması ve hataların düzeltilmesi: Oyununuzu takım içinde test edin ve hataları, denge sorunlarını ve performans sorunlarını tespit edin. Bu aşamada, takım üyelerinizin geri bildirimlerini dikkate alarak gerekli düzeltmeleri yapın.
-•	Drone karakteri ittiriyor ve düşürüyor. Kontrol edilmeli!
-•	Silah geliştirme oyun içi ekranı hata gidermesi ve ana repoya eklenmesi
-•	Her görevin tamamlanıp github pushlama esnasında testlerinin gerçekleştirilmesi ve hata varsa giderilmesi
+- Drone karakteri ittiriyor ve düşürüyor. Kontrol edilmeli!
+- Silah geliştirme oyun içi ekranı hata gidermesi ve ana repoya eklenmesi
+- Her görevin tamamlanıp github pushlama esnasında testlerinin gerçekleştirilmesi ve hata varsa giderilmesi
 
 Görev 6: NPC takip sistemi kodlama: Her enemy için geçerli olabilecek genel bir kod sistemi(NPCAI).
-•	NPC AI script oluşturma ve bu script mantığının tüm NPClerde oluşturulması
+- NPC AI script oluşturma ve bu script mantığının tüm NPClerde oluşturulması
 
 ## Sprint Retrospective:
 
@@ -216,7 +225,7 @@ Seviye tasarımının oluşturulması ve ilk seviyenin eklenmesi: Bu görev içi
 
 İlerleme kaydetme sisteminin oluşturulması: Bu görevin tamamlanması için daha fazla zamana ihtiyaç vardı ve dolayısıyla bu sprint içinde tamamlanamadı. İlerleme kaydetme sistemi, gelecek sprintte tamamlanması planlanan bir görev olarak belirlendi. Ayrıca save sistemi ile ilgili araştırmalar yapıldı fakat uygulamaya geçirmek için daha fazla zamana ihtiyacımız vardı. Bunun dışında ana ekran, pause menu , timer, level up gibi özellikleri başarıyla projeye dahil edildi. 
 
-Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi: Oyuncuların silah ve savunma yeteneklerini geliştirmelerine olanak sağlayacak tasarımlar oluşturuldu fakat bu kodlarda fazlaca hata almaktayız. Bu nedenle en optimize ve düzgün çalışacak şekilde kodları düzenlemeye çalışmaktayız. Gelecek sprint için ilgilenilecek görevlerden biri olarak belirlendi. Ayrıca Blackhole gun yeni bir silah geliştirmesi olarak projeye dahil edildi. Bullet Trace özelliği de karaktere atandı.
+Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi: Oyuncuların silah ve savunma yeteneklerini geliştirmelerine olanak sağlayacak tasarımlar oluşturuldu fakat bu kodlarda fazlaca hata almaktayız. Bu nedenle en optimize ve düzgün çalışacak şekilde kodları düzenlemeye çalışmaktayız. Gelecek sprint için ilgilenilecek görevlerden biri olarak belirlendi. Ayrıca Blackhole gun yeni bir silah geliştirmesi olarak projeye dahil edildi. Bullet Tracer da karaktere atandı.
 
 İç testlerin yapılması ve hataların düzeltilmesi: Bu görev sürecinde yapılan iç testlerle birçok hata tespit edildi ve düzeltildi. Bununla birlikte, sprint sonunda tüm hataların tamamen düzeltilmesi için daha fazla zaman gerekeceği anlaşıldı. Zamana ihtiyaç duyduğumuz geniş çaplı hataların giderilmesi için gelecek sprinte dahil edileceği kararı alındı.
 
