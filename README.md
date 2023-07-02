@@ -87,7 +87,6 @@ Sprint board screenshotları:
 
 ![NPC Spawner Çalışmaları](https://github.com/yasinakgulbp/u-27/blob/main/images/NPCSpawner.jpg?raw=true)
 
-
 # Sprint Raporu
 
 ## Sprint Planlama Tarihi: 04.06.23 – 18.06.23
@@ -149,15 +148,23 @@ yoğun bir sürece hazırlanıyoruz.
 
 Sprint board screenshotları:
 
-![Backlog 1]()
+![Backlog 1.1](https://github.com/yasinakgulbp/u-27/blob/main/images/Sprint2_Backlog1.1.png)
 
-![Backlog 2]()
+![Backlog 1.2](https://github.com/yasinakgulbp/u-27/blob/main/images/Sprint2_Backlog1.2.png)
 
-![Backlog 3]()
+![Backlog 1.3](https://github.com/yasinakgulbp/u-27/blob/main/images/Sprint2_Backlog1.3.png)
+
+![Backlog 2](https://github.com/yasinakgulbp/u-27/blob/main/images/Sprint2_Backlog2.png)
+
+![Backlog 3](https://github.com/yasinakgulbp/u-27/blob/main/images/Sprint2_Backlog3.png)
 
 ## Ürün Durumu:
 
+![1](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu1.png)
 
+![2](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu3.png)
+
+![3](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu2.png)
 
 # Sprint Raporu
 
