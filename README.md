@@ -127,21 +127,21 @@ yoğun bir sürece hazırlanıyoruz.
 
 # Sprint 2
 
-**Daily Scrum Notları:** : https://drive.google.com/file/d/1Xwzvmw_bktpPps48k1bCMC6v4hBZpDyR/view?usp=sharing
+**Daily Scrum Notları:** : https://drive.google.com/file/d/16O6ke48cCKVM2f35sJubjFDZyaD0CQ_h/view?usp=drive_link
 
 ## Puanlama
 
-**Sprint içinde tamamlanması tahmin edilen puan** : 160 Puan
+**Sprint içinde tamamlanması tahmin edilen puan** : 150 Puan
 
-**Sprint sonunda ulaşılan puan**: 115 Puan
+**Sprint sonunda ulaşılan puan**: 125 Puan **[5 kişilik görev planlamasını 3 kişi ile 125 puanla tamamalandı.]**
 
 **[Hedef**: Oyun İlerlemesinin ve Özelliklerin Eklenmesi **]**
 
-- Seviye tasarımının oluşturulması ve ilk seviyenin eklenmesi. 5P/10P
+- Seviye tasarımının oluşturulması ve ilk seviyenin eklenmesi. 10P/10P
 - Ödül sisteminin oluşturulması ve ödüllerin belirlenmesi. 30P/30P
-- İlerleme kaydetme sisteminin oluşturulması. 30P/40P
-- Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi. 20P/40P
-- İç testlerin yapılması ve hataların düzeltilmesi. 20P/30P
+- İlerleme kaydetme sisteminin oluşturulması. (Auto Save System) 5P/30P
+- Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi. 40P/40P
+- İç testlerin yapılması ve hataların düzeltilmesi. 30P/30P
 - NPC takip sistemi kodlama. 10P/10P
 
 ## Product Backlog:
@@ -226,16 +226,16 @@ Sonuç olarak, aslında 5 kişilik bir sprint planlaması yapmamıza rağmen, 4 
 
 ## Sprint Review:
 
-Seviye tasarımının oluşturulması ve ilk seviyenin eklenmesi: Bu görev için tasarım kısmını diğer sprinte aktarma kararı aldık. Bu sayede oyun mekaniğini geliştirmek için daha çok vaktimiz kalacaktı. Daha güçlü düşmanlar ekleyerek seviyelerin zorluk açısından artış göstermesi sağlandı. 
+Seviye tasarımı ve ilk seviyenin eklenmesi: Tasarımı sonraki sprinte aktardık ve güçlü düşmanlarla seviyelerin zorluğunu artırdık.
 
-Ödül sisteminin oluşturulması ve ödüllerin belirlenmesi: Bu görev tamamlandı. Ödül sistemi başarılı bir şekilde oluşturuldu ve farklı ödüller belirlendi. Oyunculara motivasyon sağlayacak bir ödül sistemi uygulandı.
+Ödül sisteminin oluşturulması ve ödüllerin belirlenmesi: Başarılı bir ödül sistemi oluşturarak oyunculara motivasyon sağladık.
 
-İlerleme kaydetme sisteminin oluşturulması: Bu görevin tamamlanması için daha fazla zamana ihtiyaç vardı ve dolayısıyla bu sprint içinde tamamlanamadı. İlerleme kaydetme sistemi, gelecek sprintte tamamlanması planlanan bir görev olarak belirlendi. Ayrıca save sistemi ile ilgili araştırmalar yapıldı fakat uygulamaya geçirmek için daha fazla zamana ihtiyacımız vardı. Bunun dışında ana ekran, pause menu , timer, level up gibi özellikleri başarıyla projeye dahil edildi. 
+İlerleme kaydetme sisteminin oluşturulması: Bu sprintte tamamlanamadı, gelecek sprintte yapılacak.
 
-Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi: Oyuncuların silah ve savunma yeteneklerini geliştirmelerine olanak sağlayacak tasarımlar oluşturuldu fakat bu kodlarda fazlaca hata almaktayız. Bu nedenle en optimize ve düzgün çalışacak şekilde kodları düzenlemeye çalışmaktayız. Gelecek sprint için ilgilenilecek görevlerden biri olarak belirlendi. Ayrıca Blackhole gun yeni bir silah geliştirmesi olarak projeye dahil edildi. Bullet Tracer da karaktere atandı.
+Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi: Tasarımlar yapıldı ve hatalar giderildi. Blackhole Gun yeni bir silah olarak eklendi.
 
-İç testlerin yapılması ve hataların düzeltilmesi: Bu görev sürecinde yapılan iç testlerle birçok hata tespit edildi ve düzeltildi. Bununla birlikte, sprint sonunda tüm hataların tamamen düzeltilmesi için daha fazla zaman gerekeceği anlaşıldı. Zamana ihtiyaç duyduğumuz geniş çaplı hataların giderilmesi için gelecek sprinte dahil edileceği kararı alındı.
+İç testlerin yapılması ve hataların düzeltilmesi: Birçok hata tespit edildi ve düzeltildi, ancak tüm hataların tamamen düzeltilmesi için daha fazla zaman gerekiyor.
 
-Sprint boyunca takım, planlanan görevlerin çoğunu tamamladı. Ancak, bazı zorluklar ve beklenmedik durumlar nedeniyle tüm hedeflerin tamamlanamadığını fark ettik. Takım, sıkı bir çalışma temposuyla, takvimdeki kısıtlamalara rağmen önemli görevleri tamamlamayı başardı. Ayrıca, ekip içindeki iletişim ve koordinasyonun geliştirilmesi konusunda adımlar atıldı ve başarıyla uygulandı.
+Takım, planlanan görevlerin çoğunu tamamladı, ancak bazı zorluklar ve beklenmedik durumlar olsa dahi hedeflerin büyük kısmını tamamlamış olduk.
 
-Sonuç olarak, 2. sprintin genel değerlendirmesi oldukça olumlu oldu. Tamamlanan görevlerin yanı sıra, takımın dayanıklılığı ve esnekliği göz önüne alındığında, projenin ilerlemesi açısından olumlu bir momentum yakalandı. Yarım kalan görevlerin tamamlanması ve diğer sprintlerin planlanması için takım olarak bir sonraki adımları planlama sürecine gireceğiz.
+Özetle, 2. sprintin genel değerlendirmesi olumlu oldu. Tamamlanan görevlerin yanı sıra, hataların düzeltilmesi ve ilerlemeye yönelik çalışmalar için daha fazla zaman gerektiği belirlendi. Takım, sıkı bir çalışma temposuyla önemli görevleri başarıyla tamamladı ve gelecek adımları planlamak üzere ilerliyor. 3.sprintten beklentilerimiz ise İlerleme kaydetme sisteminin tamamlanması, silah ve savunma geliştirmelerinin hatalardan arındırılarak eklenmesi ve genel olarak projede kalan hataların düzeltilmesi hedefleniyor. Ayrıca, oyunun performansını iyileştirmek ve oynanabilirliği artırmak için optimizasyon çalışmaları yapılacak. Tam anlamıyla oyunun görselve ses tasarımına odaklanmış bir şekilde oyunumuza tamamlamayı planlıyoruz. Trailerı hazırlamak için sabırsızlanıyoruz. 
