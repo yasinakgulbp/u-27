@@ -168,7 +168,9 @@ Sprint board screenshotları:
 
 ![4](https://github.com/yasinakgulbp/u-27/blob/main/images/gif_blachole_gun.gif)
 
-![5](https://github.com/yasinakgulbp/u-27/blob/main/images/mimic3.png)
+![5](https://github.com/yasinakgulbp/u-27/blob/main/images/saldr_yeniden_gif_15_fps.gif)
+
+![5](https://github.com/yasinakgulbp/u-27/blob/main/images/saldiriGif30FPS.gif)
 
 
 # Sprint Raporu
