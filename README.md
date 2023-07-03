@@ -162,7 +162,7 @@ Sprint board screenshotları:
 
 ![1](https://github.com/yasinakgulbp/u-27/blob/main/images/urundurumuu.png)
 
-![2](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu3.png)
+![2](https://github.com/yasinakgulbp/u-27/blob/main/images/PauseMenuUI.jpg)
 
 ![3](https://github.com/yasinakgulbp/u-27/blob/main/images/urunDurumu2.png)
 
