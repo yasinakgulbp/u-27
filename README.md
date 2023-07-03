@@ -170,7 +170,7 @@ Sprint board screenshotları:
 
 ![5](https://github.com/yasinakgulbp/u-27/blob/main/images/saldr_yeniden_gif_15_fps.gif)
 
-![5](https://github.com/yasinakgulbp/u-27/blob/main/images/saldiriGif30FPS.gif)
+![6](https://github.com/yasinakgulbp/u-27/blob/main/images/saldiriGif30FPS.gif)
 
 
 # Sprint Raporu
