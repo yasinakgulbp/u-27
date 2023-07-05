@@ -9,7 +9,7 @@ public class AutoAimShoot : MonoBehaviour
     public GameObject HitPoint;
     public GameObject tracerEffectPrefab;
 
-    public float fireRate = 0.5f;
+    public float fireRate = 10f;
     private float nextFireTime = 0f;
 
     private List<Transform> enemies;
@@ -129,4 +129,29 @@ public class AutoAimShoot : MonoBehaviour
             currentEnemy = FindClosestEnemy();
         }
     }
+
+    public void DoubleFireRate()
+    {
+
+
+        StartCoroutine(DoubleFireRateForSeconds(3f));
+
+        
+
+    }
+    private IEnumerator DoubleFireRateForSeconds(float duration)
+    {
+        fireRate *= 2f; // Double the fire rate
+
+        Debug.Log("Fire rate doubled!");
+
+        yield return new WaitForSeconds(duration);
+
+        fireRate /= 2f; // Restore the original fire rate
+
+        Debug.Log("Fire rate restored!");
+    }
+
 }
+
+
