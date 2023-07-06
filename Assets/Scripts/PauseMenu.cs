@@ -2,9 +2,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+//using KinematicCharacterController.Examples;
+//using System;
 
 public class PauseMenu : MonoBehaviour
 {
+    //public ExampleCharacterController characterController;
+    public UpgradeSkill UpgradeSkillScript;
+
     public Slider slider;
 
     public GameObject pauseMenuUI;
@@ -15,11 +20,14 @@ public class PauseMenu : MonoBehaviour
 
     void Start()
     {
+        UpgradeSkillScript = FindObjectOfType<UpgradeSkill>();
+        //characterController = GetComponent<ExampleCharacterController>();
         pauseMenuUI.SetActive(false);
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
         isPausedis = false;
+
 
         // Mouse imleci gösterilsin
         Cursor.visible = true;
@@ -117,17 +125,19 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(targetSceneName);
     }
 
-    public void click1()
+    public void UpgradeFast()
     {
-        Debug.Log("Buton 1'e týklandý!");
+        Debug.Log("Hýz %10 arttýrýldý!");
+        UpgradeSkillScript.FastUpgrade();
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
         isPausedis = false;
     }
 
-    public void click2()
+    public void UpgradeJump()
     {
-        Debug.Log("Buton 2'ye týklandý!");
+        Debug.Log("Zýplama Hýzý %10 Arttýrýldý!");
+        UpgradeSkillScript.JumpUpgrade();
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
         isPausedis = false;
