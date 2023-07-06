@@ -7,6 +7,9 @@ TagManager:
   - Enemy
   - Coin
   - Magnet
+  - BoostRate
+  - BoostJump
+  - BoostFast
   layers:
   - Default
   - TransparentFX
