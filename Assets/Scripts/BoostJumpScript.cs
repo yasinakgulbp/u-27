@@ -14,7 +14,7 @@ public class BoostJumpScript : MonoBehaviour
         if (other.gameObject.CompareTag("BoostJump"))
         {
             Debug.Log("Þu an çarpýþma oldu ve zýplama hýz arttýrýldý");
-            characterController.JumpUpSpeed = 20f;
+            characterController.JumpUpSpeed = 32f;
         }
         
     }
