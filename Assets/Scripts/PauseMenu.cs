@@ -11,6 +11,7 @@ public class PauseMenu : MonoBehaviour
     public UpgradeSkill UpgradeSkillScript;
 
     public Slider slider;
+    public Slider HealtSlider;
 
     public GameObject pauseMenuUI;
     private bool isPaused = true;
@@ -147,6 +148,22 @@ public class PauseMenu : MonoBehaviour
     }
     public void UpgradeSkillAfter()
     {
+        upgradeMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPausedis = false;
+    }
+
+    public void UpgradeHealth()
+    {
+        if(HealtSlider.value <= 50f)
+        {
+            HealtSlider.value = HealtSlider.value + 25f;
+        }
+        else
+        {
+            HealtSlider.value = HealtSlider.value + (HealtSlider.value * 30 / 100);
+        }
+        Debug.Log("Al sana can geldi.");
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
         isPausedis = false;

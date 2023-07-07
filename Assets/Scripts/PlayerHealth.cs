@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public float currentHealth; // Mevcut can deðeri
 
     public Slider healthSlider; // Caný göstermek için Slider
+    public Text Healthtext;
 
     private bool isDead = false; // Ölüp ölmediðini kontrol etmek için bir bayrak
 
@@ -18,6 +19,11 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth; // Baþlangýçta caný maksimum deðere ayarla
         healthSlider.maxValue = maxHealth; // Slider'ýn maksimum deðerini ayarla
         healthSlider.value = currentHealth; // Slider'ýn mevcut deðerini ayarla
+    }
+
+    public void Health(float value)
+    {
+        Healthtext.text = value.ToString();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -30,10 +36,9 @@ public class PlayerHealth : MonoBehaviour
 
     private void TakeDamage(float damageAmount)
     {
-        currentHealth -= damageAmount; // Caný azalt
-        healthSlider.value = currentHealth; // Slider'ýn mevcut deðerini güncelle
+        healthSlider.value -= damageAmount; // Caný azalt
 
-        if (currentHealth <= 0f)
+        if (healthSlider.value <= 0f)
         {
             Die(); // Eðer can sýfýra düþtüyse Die fonksiyonunu çaðýr (oyuncu ölür)
         }
