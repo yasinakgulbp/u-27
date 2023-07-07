@@ -129,22 +129,24 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("Hýz %10 arttýrýldý!");
         UpgradeSkillScript.FastUpgrade();
-        upgradeMenu.SetActive(false);
-        Time.timeScale = 1f;
-        isPausedis = false;
+        UpgradeSkillAfter();
     }
 
     public void UpgradeJump()
     {
         Debug.Log("Zýplama Hýzý %10 Arttýrýldý!");
         UpgradeSkillScript.JumpUpgrade();
-        upgradeMenu.SetActive(false);
-        Time.timeScale = 1f;
-        isPausedis = false;
+        UpgradeSkillAfter();
     }
     public void click3()
     {
         Debug.Log("Buton 3'e týklandý!");
+        upgradeMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPausedis = false;
+    }
+    public void UpgradeSkillAfter()
+    {
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
         isPausedis = false;
