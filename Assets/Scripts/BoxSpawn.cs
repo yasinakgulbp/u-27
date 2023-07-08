@@ -9,6 +9,10 @@ public class BoxSpawn : MonoBehaviour
 
     private void Start()
     {
+        SpawnBoxes();
+    }
+    public void SpawnBoxes()
+    {
         // Belirtilen sayýda sandýk spawn et
         for (int i = 0; i < boxCount; i++)
         {

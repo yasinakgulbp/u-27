@@ -8691,6 +8691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d64826c0205b84b9f3f21fd40f54bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeCounterScript: {fileID: 0}
   npcPrefab: {fileID: 8049655817948905147, guid: 9cd41696ee806024398c28dac0e2c46b, type: 3}
   spawnInterval: 5
 --- !u!4 &351429265
@@ -25373,6 +25374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d64826c0205b84b9f3f21fd40f54bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeCounterScript: {fileID: 0}
   npcPrefab: {fileID: 8668298372477775921, guid: b13188823310af344ac7faaa394de104, type: 3}
   spawnInterval: 2
 --- !u!4 &974499255
@@ -35394,6 +35396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d64826c0205b84b9f3f21fd40f54bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeCounterScript: {fileID: 0}
   npcPrefab: {fileID: 8668298372477775921, guid: 6e148133a86ba634b80d3708a23057bd, type: 3}
   spawnInterval: 2
 --- !u!4 &1420455908
@@ -42643,8 +42646,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'If your health is below 50, you gain +25 health.
 
-    If your health
-    is above 50, 30% of your current health will be added.'
+    If your health is
+    above 50, 30% of your current health will be added.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -46553,6 +46556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startTime: 0
   counterSpeed: 1
+  boxSpawnScript: {fileID: 2023081660}
 --- !u!1 &1828738935
 GameObject:
   m_ObjectHideFlags: 0
@@ -52014,7 +52018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boxPrefab: {fileID: 6098910530693595291, guid: 9592b5d507348cd41999be349b8ce7e9, type: 3}
-  boxCount: 20
+  boxCount: 30
   mapWidth: 300
   mapLength: 300
 --- !u!4 &2023081661
