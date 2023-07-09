@@ -11,7 +11,7 @@ public class NPCSpawner : MonoBehaviour
         StartCoroutine(SpawnNPC());
     }
 
-    IEnumerator SpawnNPC()
+    public IEnumerator SpawnNPC()
     {
         while (true)
         {
