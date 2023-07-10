@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AutoAimShoot : MonoBehaviour
+public class AutoAimShootDrone : MonoBehaviour
 {
     public Transform FirePoint;
     public GameObject Fire;
@@ -10,7 +10,7 @@ public class AutoAimShoot : MonoBehaviour
     public GameObject tracerEffectPrefab;
 
     public float fireRate = 10f;
-    public int DemageValue = 2;
+    public int DemageValue2 = 2;
     private float nextFireTime = 0f;
 
     private List<Transform> enemies;
@@ -73,7 +73,6 @@ public class AutoAimShoot : MonoBehaviour
                 }
             }
         }
-
         return closestEnemy;
     }
 
@@ -84,9 +83,10 @@ public class AutoAimShoot : MonoBehaviour
         FirePoint.rotation = Quaternion.Lerp(FirePoint.rotation, targetRotation, Time.deltaTime * 5f);
     }
 
-    public void DemageChange()
+    public void DroneDemageChange()
     {
-        DemageValue += 2;
+       // Debug.Log("AutoAimDrone koduna geldi ve DemageChange2 fonksiyonu içerisinde þu an artan deðer þu : " + DemageValue2);
+        DemageValue2 += 2;
     }
 
     public void Shoot()
@@ -114,7 +114,7 @@ public class AutoAimShoot : MonoBehaviour
 
             if (enemy != null)
             {
-                enemy.Damage(DemageValue);
+                enemy.Damage(DemageValue2);
                 //Debug.Log("DemageValue : " + DemageValue);
             }
             //Yeni ekledim denem amaçlý yasin
@@ -137,23 +137,23 @@ public class AutoAimShoot : MonoBehaviour
         }
     }
 
-    public void DoubleFireRate()
-    {
-        StartCoroutine(DoubleFireRateForSeconds(3f));
-    }
+    //public void DoubleFireRate()
+    //{
+    //    StartCoroutine(DoubleFireRateForSeconds(3f));
+    //}
 
-    private IEnumerator DoubleFireRateForSeconds(float duration)
-    {
-        fireRate *= 2f; // Double the fire rate
+    //private IEnumerator DoubleFireRateForSeconds(float duration)
+    //{
+    //    fireRate *= 2f; // Double the fire rate
 
-        Debug.Log("Fire rate doubled!");
+    //    Debug.Log("Fire rate doubled!");
 
-        yield return new WaitForSeconds(duration);
+    //    yield return new WaitForSeconds(duration);
 
-        fireRate /= 2f; // Restore the original fire rate
+    //    fireRate /= 2f; // Restore the original fire rate
 
-        Debug.Log("Fire rate restored!");
-    }
+    //    Debug.Log("Fire rate restored!");
+    //}
 
 }
 

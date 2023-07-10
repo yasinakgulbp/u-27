@@ -9624,8 +9624,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -6.2}
-  m_SizeDelta: {x: 200, y: 108.6274}
+  m_AnchoredPosition: {x: 0, y: -17.563698}
+  m_SizeDelta: {x: 200, y: 106.5613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392875395
 MonoBehaviour:
@@ -9647,8 +9647,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Here there will be a brief information about what this ability is useful
-    for.
+  m_text: Drone adds +2 power to damage power with each shot. You can even pierce
+    armor this way.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9858,7 +9858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fire Rate
+  m_text: Drone Demage +2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10318,6 +10318,10 @@ PrefabInstance:
     - target: {fileID: 8675915457954794080, guid: 3fc537e92bf3d2449b5be72cfd6cb447, type: 3}
       propertyPath: m_Name
       value: NPCMimic
+      objectReference: {fileID: 0}
+    - target: {fileID: 8675915457954794080, guid: 3fc537e92bf3d2449b5be72cfd6cb447, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8675915457954794080, guid: 3fc537e92bf3d2449b5be72cfd6cb447, type: 3}
       propertyPath: m_TagString
@@ -25602,7 +25606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -6.2}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 200, y: 108.6274}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &983511158
@@ -25625,8 +25629,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Here there will be a brief information about what this ability is useful
-    for.
+  m_text: The character adds +2 power to damage power with each shot. You can even
+    pierce armor this way.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26227,7 +26231,7 @@ GameObject:
   - component: {fileID: 1006507322}
   - component: {fileID: 1006507323}
   m_Layer: 5
-  m_Name: container (4)
+  m_Name: DroneDemageUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26300,7 +26304,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1119276947}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: click3
+        m_MethodName: UpgradeDroneDemage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27747,7 +27751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fire Rate
+  m_text: Demage      +2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29304,6 +29308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UpgradeSkillScript: {fileID: 6615662580611611651}
+  UpgradeDroneSkillScript: {fileID: 2142217721}
   slider: {fileID: 509372624}
   HealtSlider: {fileID: 1945789473}
   pauseMenuUI: {fileID: 1761053971}
@@ -31680,7 +31685,7 @@ GameObject:
   - component: {fileID: 1223316457}
   - component: {fileID: 1223316458}
   m_Layer: 5
-  m_Name: container (3)
+  m_Name: CharacterDemageUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31753,7 +31758,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1119276947}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: click3
+        m_MethodName: UpgradeDemage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -36461,7 +36466,7 @@ GameObject:
   - component: {fileID: 1456205878}
   - component: {fileID: 1456205879}
   m_Layer: 5
-  m_Name: container (5)
+  m_Name: HealtUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37584,7 +37589,7 @@ GameObject:
   - component: {fileID: 1514858945}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Engel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49159,7 +49164,7 @@ GameObject:
   - component: {fileID: 1898443235}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Engel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51416,7 +51421,7 @@ GameObject:
   - component: {fileID: 1992691169}
   - component: {fileID: 1992691170}
   m_Layer: 5
-  m_Name: container (2)
+  m_Name: FireRateUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55943,6 +55948,7 @@ GameObject:
   - component: {fileID: 2142217716}
   - component: {fileID: 2142217715}
   - component: {fileID: 2142217720}
+  - component: {fileID: 2142217721}
   m_Layer: 0
   m_Name: Drone
   m_TagString: Untagged
@@ -56065,14 +56071,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 2142217714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d3942c94fee7e34080de3c0ebe2396f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f9b11f48f02b2d4a9b9114173db214c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 1307569244}
   Fire: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
-  HitPoint: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
-  tracerEffectPrefab: {fileID: 1493477419964553483, guid: ee2bcf86a8540104e8314d757eedc3bd, type: 3}
-  fireRate: 5
+  HitPoint: {fileID: 1000012909287652, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
+  tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
+  fireRate: 30
+  DemageValue2: 2
+--- !u!114 &2142217721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142217714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20259770a0164ad4fa378dddb7627d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoAimDroneScript: {fileID: 2142217720}
 --- !u!1 &2142276957
 GameObject:
   m_ObjectHideFlags: 0
@@ -56501,9 +56521,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2194232633712453495, guid: 564d97a071c6c204288c37ba6f9d84b4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3381930188496728393, guid: 564d97a071c6c204288c37ba6f9d84b4, type: 3}
       propertyPath: m_Name
       value: Mimic
+      objectReference: {fileID: 0}
+    - target: {fileID: 3381930188496728393, guid: 564d97a071c6c204288c37ba6f9d84b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3693499246614883873, guid: 564d97a071c6c204288c37ba6f9d84b4, type: 3}
       propertyPath: _player
@@ -56822,6 +56850,7 @@ GameObject:
   - component: {fileID: 5543738659990719153}
   - component: {fileID: 5509052267740542277}
   - component: {fileID: 5530455799321397187}
+  - component: {fileID: 5573864683772550980}
   m_Layer: 0
   m_Name: ExampleCamera
   m_TagString: MainCamera
@@ -56844,6 +56873,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 19.976, y: -0.13, z: 0}
+--- !u!114 &5573864683772550980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5572022742420398803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!23 &6486330055653890480
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57307,7 +57380,8 @@ MonoBehaviour:
   Fire: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   HitPoint: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
-  fireRate: 10
+  fireRate: 20
+  DemageValue: 2
 --- !u!114 &6615662580611611649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57347,6 +57421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 6611558534064293502}
+  autoAimScript: {fileID: 6615662580611611648}
 --- !u!1001 &6843283170960847512
 PrefabInstance:
   m_ObjectHideFlags: 0

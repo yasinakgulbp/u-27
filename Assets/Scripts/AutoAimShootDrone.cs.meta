@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f9b11f48f02b2d4a9b9114173db214c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - FirePoint: {instanceID: 0}
+  - Fire: {instanceID: 0}
+  - HitPoint: {instanceID: 0}
+  - tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

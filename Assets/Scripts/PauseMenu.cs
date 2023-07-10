@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
 {
     //public ExampleCharacterController characterController;
     public UpgradeSkill UpgradeSkillScript;
+    public UpgradeDroneSkill UpgradeDroneSkillScript;
 
     public Slider slider;
     public Slider HealtSlider;
@@ -139,13 +140,19 @@ public class PauseMenu : MonoBehaviour
         UpgradeSkillScript.JumpUpgrade();
         UpgradeSkillAfter();
     }
-    public void click3()
+    public void UpgradeDemage()
     {
-        Debug.Log("Buton 3'e týklandý!");
-        upgradeMenu.SetActive(false);
-        Time.timeScale = 1f;
-        isPausedis = false;
+        //Debug.Log("Demage arttýrýldý Arttýrýldý!");
+        UpgradeSkillScript.DemageUpgrade();
+        UpgradeSkillAfter();
     }
+    public void UpgradeDroneDemage()
+    {
+        //Debug.Log("Drone hasarýna +2 hasar eklendi pause menüden!");
+        UpgradeDroneSkillScript.DroneDemageUpgrade();
+        UpgradeSkillAfter();
+    }
+
     public void UpgradeSkillAfter()
     {
         upgradeMenu.SetActive(false);
