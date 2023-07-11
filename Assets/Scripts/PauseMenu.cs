@@ -122,7 +122,7 @@ public class PauseMenu : MonoBehaviour
     public void ReturnToMainMenu()
     {
         // Ýstenilen sahnenin adý
-        string targetSceneName = "MainScene";
+        string targetSceneName = "MainMenuScene";
         // Sahneye dön
         SceneManager.LoadScene(targetSceneName);
     }

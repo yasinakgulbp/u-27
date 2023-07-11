@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -400,7 +400,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 227439104}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1333406794}
+        m_TargetAssemblyTypeName: levelController, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &232588024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1454,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 790679645}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1333406794}
+        m_TargetAssemblyTypeName: levelController, Assembly-CSharp
+        m_MethodName: SonrakiSahne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &844762553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2332,6 +2356,7 @@ GameObject:
   - component: {fileID: 1333406792}
   - component: {fileID: 1333406791}
   - component: {fileID: 1333406790}
+  - component: {fileID: 1333406794}
   m_Layer: 5
   m_Name: MainUI
   m_TagString: Untagged
@@ -2426,6 +2451,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1333406794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333406789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad71b6c9ee6e1c24f99cde0cf3a4b310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1436475485
 GameObject:
   m_ObjectHideFlags: 0
