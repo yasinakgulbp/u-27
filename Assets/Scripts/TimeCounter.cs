@@ -55,6 +55,14 @@ public class TimeCounter : MonoBehaviour
             Invoke("ResetEveryTwentySeconds", 2f); // 2 saniye sonra SetVariable metodu çaðrýlacak
         }
 
+        if (minutes >= 1)//Normalde Dakika 10'a geldiðinde olacak. þimdilik test için 1 Dk yaptýk
+        {
+            // oyun bittiðinde yapýlacak iþlemler
+            // Toplanan money para save edilecek. ana sahnede tekrar çaðýrýlmak üzere
+            // Main sahnesini yükle yani oyun bitti
+            // Main sahnesi açýlýnca yukarýdaki money texteki deðer ile az önce aldýðýmýz deðer toplanacak ve Tekrak save alýnacak
+        }
+
     }
     
     private void ResetEveryMinute()
