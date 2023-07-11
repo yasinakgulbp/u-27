@@ -32,4 +32,13 @@ public class levelController : MonoBehaviour
     {
         MoneyCountText.text = PlayerPrefs.GetInt("money").ToString();
     }
+
+    public void LevelCheck()
+    {
+        //PlayerPrefs.DeleteKey("levelend");  //Süremizi sýfýrlamak için burayý ekledim.
+        if (PlayerPrefs.GetInt("levelend") == 1)
+        {
+            Debug.Log("Bölüm 1 tamamlandý");
+        }
+    }
 }
