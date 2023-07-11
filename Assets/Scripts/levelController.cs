@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
+using TMPro;
 
 public class levelController : MonoBehaviour
 {
     private Scene _sahne;
+    public TMP_Text MoneyCountText;
 
     private void Awake()
     {
@@ -24,5 +26,10 @@ public class levelController : MonoBehaviour
     {
         UnityEditor.EditorApplication.isPlaying = false; //Bu kodu Build alacaðýmýz zaman sileceðiz. Yoksa çalýþmýyor. Fakat, þimdilik test ederken görebilmemiz için durmasý gerekiyor.
         Application.Quit();
+    }
+
+    public void Start()
+    {
+        MoneyCountText.text = PlayerPrefs.GetInt("money").ToString();
     }
 }

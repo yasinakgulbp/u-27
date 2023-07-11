@@ -11,11 +11,17 @@ public class MoneyCollectible : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //PlayerPrefs.DeleteKey("money");
         MoneyCountText = GameObject.Find("MoneyCountText").GetComponent<TMP_Text>(); // Coin sayýsý Text referansýný bul
+        if (PlayerPrefs.HasKey("money"))
+        {
+            MoneyCount = PlayerPrefs.GetInt("money");
+        }
         UpdateMoneyCountText(); // Coin sayýsý Text'i güncelle
     }
     public void UpdateMoneyCountText()
     {
+        PlayerPrefs.SetInt("money", MoneyCount);
         MoneyCountText.text = "Money: " + MoneyCount.ToString(); // Coin sayýsý Text'i güncelle
     }
 
@@ -33,6 +39,6 @@ public class MoneyCollectible : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }
