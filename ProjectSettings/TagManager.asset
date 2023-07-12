@@ -10,6 +10,8 @@ TagManager:
   - BoostRate
   - BoostJump
   - BoostFast
+  - Engel
+  - BoostHealth
   layers:
   - Default
   - TransparentFX
