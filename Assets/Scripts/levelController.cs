@@ -10,6 +10,8 @@ public class levelController : MonoBehaviour
 {
     private Scene _sahne;
     public TMP_Text MoneyCountText;
+    public TMP_Text MoneyCountText2;
+
 
     private void Awake()
     {
@@ -31,6 +33,7 @@ public class levelController : MonoBehaviour
     public void Start()
     {
         MoneyCountText.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCountText2.text = PlayerPrefs.GetInt("money").ToString();
     }
 
     public void LevelCheck()

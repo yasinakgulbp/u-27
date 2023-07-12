@@ -22,14 +22,14 @@ public class MoneyCollectible : MonoBehaviour
     public void UpdateMoneyCountText()
     {
         PlayerPrefs.SetInt("money", MoneyCount);
-        MoneyCountText.text = "Money: " + MoneyCount.ToString(); // Coin sayýsý Text'i güncelle
+        MoneyCountText.text = "Money: " + MoneyCount.ToString(); // Money sayýsý Text'i güncelle
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) // Player karakteriyle çarpýþma kontrolü
         {
-            MoneyCount += 750; // Coin sayýsýný bir artýr
+            MoneyCount += 750; // Money sayýsýný bir artýr
             UpdateMoneyCountText(); // Coin sayýsý Text'i güncelle
 
             Destroy(gameObject); // MOney nesnesini yok et
