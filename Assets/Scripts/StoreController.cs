@@ -6,6 +6,7 @@ using TMPro;
 public class StoreController : MonoBehaviour
 {
     public TMP_Text MoneyCount;
+    public TMP_Text MoneyCount2;
     private int money;
 
     // Start is called before the first frame update
@@ -26,6 +27,7 @@ public class StoreController : MonoBehaviour
         money = money - 100;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
     }
 
     public void SatýnAlim2()
@@ -34,6 +36,7 @@ public class StoreController : MonoBehaviour
         money = money - 200;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
     }
 
     public void SatýnAlim3()
@@ -42,6 +45,7 @@ public class StoreController : MonoBehaviour
         money = money - 300;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
     }
 
     public void SatýnAlim4()
@@ -50,6 +54,7 @@ public class StoreController : MonoBehaviour
         money = money - 400;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
     }
 
     public void SatýnAlim5()
@@ -58,5 +63,6 @@ public class StoreController : MonoBehaviour
         money = money - 500;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
     }
 }
