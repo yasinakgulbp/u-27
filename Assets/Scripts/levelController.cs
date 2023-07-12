@@ -12,6 +12,10 @@ public class levelController : MonoBehaviour
     public TMP_Text MoneyCountText;
     public TMP_Text MoneyCountText2;
 
+    public GameObject StoreUI;
+
+    public GameObject LevelUI;
+
 
     private void Awake()
     {
@@ -34,6 +38,27 @@ public class levelController : MonoBehaviour
     {
         MoneyCountText.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCountText2.text = PlayerPrefs.GetInt("money").ToString();
+
+        StoreUI.SetActive(false);
+        LevelUI.SetActive(false);
+    }
+
+    public void StoreButton()
+    {
+        StoreUI.SetActive(true);
+    
+    }
+
+    public void LevelButton()
+    {
+        LevelUI.SetActive(true);
+        
+    }
+
+    public void BackButton()
+    {
+        LevelUI.SetActive(false);
+        StoreUI.SetActive(false);
     }
 
     public void LevelCheck()
