@@ -12,6 +12,8 @@ public class levelController : MonoBehaviour
     public TMP_Text MoneyCountText;
     public TMP_Text MoneyCountText2;
 
+    public GameObject complated;
+
     public GameObject StoreUI;
 
     public GameObject LevelUI;
@@ -39,6 +41,12 @@ public class levelController : MonoBehaviour
         MoneyCountText.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCountText2.text = PlayerPrefs.GetInt("money").ToString();
 
+        //PlayerPrefs.DeleteKey("levelend");  //Süremizi sýfýrlamak için burayý ekledim.
+        if (PlayerPrefs.GetInt("levelend") == 1)
+        {
+            complated.SetActive(true);
+        }
+
         StoreUI.SetActive(false);
         LevelUI.SetActive(false);
     }
@@ -59,14 +67,5 @@ public class levelController : MonoBehaviour
     {
         LevelUI.SetActive(false);
         StoreUI.SetActive(false);
-    }
-
-    public void LevelCheck()
-    {
-        //PlayerPrefs.DeleteKey("levelend");  //Süremizi sýfýrlamak için burayý ekledim.
-        if (PlayerPrefs.GetInt("levelend") == 1)
-        {
-            Debug.Log("Bölüm 1 tamamlandý");
-        }
     }
 }
