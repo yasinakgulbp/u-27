@@ -7,6 +7,10 @@ public class BoxBroke : MonoBehaviour
     public int Health = 10;
     public BoxRewardDropper BoxRewardDropper;
     public GameObject coinPrefab;
+    public GameObject healthPrefab;
+    public GameObject fastPrefab;
+    public GameObject jumpPrefab;
+    public GameObject magnetPrefab;
 
     public void Damage(int damage)
     {

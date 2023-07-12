@@ -6,24 +6,32 @@ public class BoxRewardDropper : MonoBehaviour
 {
     public float spawnHeight = 1f;
     public GameObject coinPrefab;
-    public GameObject etPrefab;
-    public GameObject digerPrefab;
+    public GameObject healthPrefab;
+    public GameObject fastPrefab;
+    public GameObject jumpPrefab;
+    public GameObject magnetPrefab;
 
     public void DropCoin()
     {
         float randomValue = Random.value; // 0 ile 1 arasýnda rasgele bir deðer al
-
         if (randomValue < 0.5f) // %50 olasýlýk
         {
             InstantiatePrefab(coinPrefab);
         }
         else if (randomValue < 0.6f) // %10 olasýlýk
         {
-            InstantiatePrefab(etPrefab);
+            InstantiatePrefab(healthPrefab);
         }
-        else // %40 olasýlýk
+        else if (randomValue < 0.7f) // %10 olasýlýk
         {
-            InstantiatePrefab(digerPrefab);
+            InstantiatePrefab(fastPrefab);
+        }else if (randomValue < 0.8f) // %10 olasýlýk
+        {
+            InstantiatePrefab(jumpPrefab);
+        }
+        else // %20 olasýlýk
+        {
+            InstantiatePrefab(magnetPrefab);
         }
     }
 

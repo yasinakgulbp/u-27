@@ -56,7 +56,7 @@ public class TimeCounter : MonoBehaviour
             Invoke("ResetEveryTwentySeconds", 2f); // 2 saniye sonra SetVariable metodu çaðrýlacak
         }
 
-        if (minutes >= 1)
+        if (minutes >= 5)
         {
             PlayerPrefs.SetInt("levelend", 1);
             string targetSceneName = "MainMenuScene";
