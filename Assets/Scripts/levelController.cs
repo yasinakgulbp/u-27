@@ -29,12 +29,14 @@ public class levelController : MonoBehaviour
     {
         SceneManager.LoadScene(_sahne.buildIndex + 1);
         //PlayerPrefs.SetInt("ScoreCounts", score.instance.collectedPoint);
+        ButtonSound();
     }
 
     public void ExitGame()
     {
         UnityEditor.EditorApplication.isPlaying = false; //Bu kodu Build alacaðýmýz zaman sileceðiz. Yoksa çalýþmýyor. Fakat, þimdilik test ederken görebilmemiz için durmasý gerekiyor.
         Application.Quit();
+        ButtonSound();
     }
 
     public void Start()
@@ -52,23 +54,33 @@ public class levelController : MonoBehaviour
 
         StoreUI.SetActive(false);
         LevelUI.SetActive(false);
+        ButtonSound();
     }
 
     public void StoreButton()
     {
         StoreUI.SetActive(true);
+        ButtonSound();
     
     }
 
     public void LevelButton()
     {
         LevelUI.SetActive(true);
-        
+        ButtonSound();
+
     }
 
     public void BackButton()
     {
         LevelUI.SetActive(false);
         StoreUI.SetActive(false);
+        ButtonSound();
+    }
+
+    public void ButtonSound()
+    {
+        audioSource.clip = buttonSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
     }
 }

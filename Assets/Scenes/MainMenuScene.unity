@@ -12137,7 +12137,7 @@ MonoBehaviour:
   complated: {fileID: 869597939}
   StoreUI: {fileID: 1384199876}
   LevelUI: {fileID: 635025412}
-  buttonSound: {fileID: 0}
+  buttonSound: {fileID: 8300000, guid: 7c47b20bb9874304a809dc5580d403ba, type: 3}
 --- !u!114 &1333406795
 MonoBehaviour:
   m_ObjectHideFlags: 0
