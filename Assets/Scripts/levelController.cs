@@ -13,10 +13,11 @@ public class levelController : MonoBehaviour
     public TMP_Text MoneyCountText2;
 
     public GameObject complated;
-
     public GameObject StoreUI;
-
     public GameObject LevelUI;
+
+    public AudioClip buttonSound;
+    private AudioSource audioSource;
 
 
     private void Awake()
@@ -38,6 +39,8 @@ public class levelController : MonoBehaviour
 
     public void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         MoneyCountText.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCountText2.text = PlayerPrefs.GetInt("money").ToString();
 
