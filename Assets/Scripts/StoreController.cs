@@ -34,6 +34,11 @@ public class StoreController : MonoBehaviour
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
         audioSource.clip = buySound; // Ses dosyasýný atama
         audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
     }
 
     public void SatýnAlim2()
@@ -45,6 +50,11 @@ public class StoreController : MonoBehaviour
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
         audioSource.clip = buySound; // Ses dosyasýný atama
         audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
     }
 
     public void SatýnAlim3()
@@ -56,6 +66,11 @@ public class StoreController : MonoBehaviour
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
         audioSource.clip = buySound; // Ses dosyasýný atama
         audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
     }
 
     public void SatýnAlim4()
@@ -67,6 +82,11 @@ public class StoreController : MonoBehaviour
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
         audioSource.clip = buySound; // Ses dosyasýný atama
         audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
     }
 
     public void SatýnAlim5()
@@ -78,5 +98,10 @@ public class StoreController : MonoBehaviour
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
         audioSource.clip = buySound; // Ses dosyasýný atama
         audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
     }
 }
