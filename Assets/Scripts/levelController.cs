@@ -13,11 +13,10 @@ public class levelController : MonoBehaviour
     public TMP_Text MoneyCountText2;
 
     public GameObject complated;
-    public GameObject StoreUI;
-    public GameObject LevelUI;
 
-    public AudioClip buttonSound;
-    private AudioSource audioSource;
+    public GameObject StoreUI;
+
+    public GameObject LevelUI;
 
 
     private void Awake()
@@ -29,20 +28,16 @@ public class levelController : MonoBehaviour
     {
         SceneManager.LoadScene(_sahne.buildIndex + 1);
         //PlayerPrefs.SetInt("ScoreCounts", score.instance.collectedPoint);
-        ButtonSound();
     }
 
     public void ExitGame()
     {
         UnityEditor.EditorApplication.isPlaying = false; //Bu kodu Build alacaðýmýz zaman sileceðiz. Yoksa çalýþmýyor. Fakat, þimdilik test ederken görebilmemiz için durmasý gerekiyor.
         Application.Quit();
-        ButtonSound();
     }
 
     public void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-
         MoneyCountText.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCountText2.text = PlayerPrefs.GetInt("money").ToString();
 
@@ -54,20 +49,17 @@ public class levelController : MonoBehaviour
 
         StoreUI.SetActive(false);
         LevelUI.SetActive(false);
-        ButtonSound();
     }
 
     public void StoreButton()
     {
         StoreUI.SetActive(true);
-        ButtonSound();
-    
+
     }
 
     public void LevelButton()
     {
         LevelUI.SetActive(true);
-        ButtonSound();
 
     }
 
@@ -75,12 +67,5 @@ public class levelController : MonoBehaviour
     {
         LevelUI.SetActive(false);
         StoreUI.SetActive(false);
-        ButtonSound();
-    }
-
-    public void ButtonSound()
-    {
-        audioSource.clip = buttonSound; // Ses dosyasýný atama
-        audioSource.Play(); // Ses dosyasýný çal
     }
 }
