@@ -20,8 +20,21 @@ public class PauseMenu : MonoBehaviour
     public GameObject upgradeMenu;
     private bool isPausedis = true;
 
+    public AudioClip clickSound;
+    public AudioClip fastSound;
+    public AudioClip jumpSound;
+    public AudioClip healthSound;
+    public AudioClip droneDamageSound;
+    public AudioClip characterDamageSound;
+    public AudioClip fireRateSound;
+
+
+    private AudioSource audioSource;
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         UpgradeSkillScript = FindObjectOfType<UpgradeSkill>();
         //characterController = GetComponent<ExampleCharacterController>();
         pauseMenuUI.SetActive(false);
@@ -77,12 +90,14 @@ public class PauseMenu : MonoBehaviour
     }
     public void Resume()
     {
+        ClickSound();
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
     }
     public void Resume1()
     {
+        ClickSound();
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
         isPausedis = false;
@@ -97,16 +112,19 @@ public class PauseMenu : MonoBehaviour
         CoinCollectible.coinCount = 0;
         Time.timeScale = 1f;
         isPaused = false;
+        ClickSound();
     }
 
     public void Quit()
     {
+        ClickSound();
         UnityEditor.EditorApplication.isPlaying = false; //Bu kodu Build alacaðýmýz zaman sileceðiz. Yoksa çalýþmýyor. Fakat, þimdilik test ederken görebilmemiz için durmasý gerekiyor.
         Application.Quit();
     }
 
     private void Pause()
     {
+        ClickSound();
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
@@ -114,6 +132,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Pause1()
     {
+        ClickSound();
         upgradeMenu.SetActive(true);
         Time.timeScale = 0f;
         isPausedis = true;
@@ -121,6 +140,7 @@ public class PauseMenu : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
+        ClickSound();
         // Ýstenilen sahnenin adý
         string targetSceneName = "MainMenuScene";
         // Sahneye dön
@@ -129,6 +149,7 @@ public class PauseMenu : MonoBehaviour
 
     public void UpgradeFast()
     {
+        FastSound();
         Debug.Log("Hýz %10 arttýrýldý!");
         UpgradeSkillScript.FastUpgrade();
         UpgradeSkillAfter();
@@ -136,18 +157,21 @@ public class PauseMenu : MonoBehaviour
 
     public void UpgradeJump()
     {
+        JumpSound();
         Debug.Log("Zýplama Hýzý %10 Arttýrýldý!");
         UpgradeSkillScript.JumpUpgrade();
         UpgradeSkillAfter();
     }
     public void UpgradeDemage()
     {
+        CharacterDamageSound();
         //Debug.Log("Demage arttýrýldý Arttýrýldý!");
         UpgradeSkillScript.DemageUpgrade();
         UpgradeSkillAfter();
     }
     public void UpgradeDroneDemage()
     {
+        DroneDamageSound();
         //Debug.Log("Drone hasarýna +2 hasar eklendi pause menüden!");
         UpgradeDroneSkillScript.DroneDemageUpgrade();
         UpgradeSkillAfter();
@@ -162,7 +186,8 @@ public class PauseMenu : MonoBehaviour
 
     public void UpgradeHealth()
     {
-        if(HealtSlider.value <= 50f)
+        HealthSound();
+        if (HealtSlider.value <= 50f)
         {
             HealtSlider.value = HealtSlider.value + 25f;
         }
@@ -174,5 +199,47 @@ public class PauseMenu : MonoBehaviour
         upgradeMenu.SetActive(false);
         Time.timeScale = 1f;
         isPausedis = false;
+    }
+
+    public void ClickSound()
+    {
+        audioSource.clip = clickSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+    }
+
+    public void FastSound()
+    {
+        audioSource.clip = fastSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+    }
+
+    public void JumpSound()
+    {
+        audioSource.clip = jumpSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+    }
+
+    public void HealthSound()
+    {
+        audioSource.clip = healthSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+    }
+
+    public void DroneDamageSound()
+    {
+        audioSource.clip = droneDamageSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+    }
+
+    public void CharacterDamageSound()
+    {
+        audioSource.clip = characterDamageSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+    }
+
+    public void FireRateSound()
+    {
+        audioSource.clip = fireRateSound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
     }
 }
