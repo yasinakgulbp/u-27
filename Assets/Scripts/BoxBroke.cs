@@ -12,6 +12,8 @@ public class BoxBroke : MonoBehaviour
     public GameObject jumpPrefab;
     public GameObject magnetPrefab;
 
+    public AudioClip sound;
+
     public void Damage(int damage)
     {
         Health -= damage;
@@ -23,6 +25,7 @@ public class BoxBroke : MonoBehaviour
 
     private void Die()
     {
+        AudioSource.PlayClipAtPoint(sound, transform.position);
         BoxRewardDropper.DropCoin();
         Destroy(this.gameObject);
     }
