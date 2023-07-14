@@ -8,6 +8,7 @@ public class AutoAimShoot : MonoBehaviour
     public GameObject Fire;
     public GameObject HitPoint;
     public GameObject tracerEffectPrefab;
+    public AudioClip soundFire;
 
     public float fireRate = 10f;
     public int DemageValue = 2;
@@ -103,6 +104,7 @@ public class AutoAimShoot : MonoBehaviour
             Destroy(a, 1);
             Destroy(b, 1);
 
+            AudioSource.PlayClipAtPoint(soundFire, transform.position);
             // Bullet Tracer efektini oluþtur
             GameObject tracerEffect = Instantiate(tracerEffectPrefab, FirePoint.position, Quaternion.identity);
             LineRenderer lineRenderer = tracerEffect.GetComponent<LineRenderer>();

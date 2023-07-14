@@ -6,6 +6,7 @@ public class TimeCounter : MonoBehaviour
 {
     public float startTime = 0f;        // Sayacýn baþlama süresi
     public float counterSpeed = 1f;     // Sayacýn hýzý
+    public AudioClip BoxSpawnSound;
 
     private float currentTime = 0f;
     private TMP_Text counterText;
@@ -34,6 +35,7 @@ public class TimeCounter : MonoBehaviour
 
         if (minutes > 0 && minutes % 2 == 0 && seconds==0 && everyMinute)
         {
+            AudioSource.PlayClipAtPoint(BoxSpawnSound, transform.position);
             boxSpawnScript.SpawnBoxes();        // Her dakika baþýnda yapýlacak iþlemler
             everyMinute = false;                // Deðiþkeni eþitle
             Invoke("ResetEveryMinute", 2f);     // 2 saniye sonra SetVariable metodu çaðrýlacak

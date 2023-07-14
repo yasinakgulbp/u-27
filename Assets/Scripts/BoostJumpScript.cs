@@ -9,6 +9,7 @@ public class BoostJumpScript : MonoBehaviour
     public GameObject jumpPrefab;
     public GameObject healthPrefab;
     public GameObject fastPrefab;
+    public AudioClip soundJump, soundFast, soundHealth;
 
     private void Start()
     {
@@ -20,6 +21,7 @@ public class BoostJumpScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("BoostJump"))
         {
+            AudioSource.PlayClipAtPoint(soundJump, transform.position);
             Debug.Log("Çarpýþma oldu ve zýplama hýzý artýrýldý");
             characterController.JumpUpSpeed = Mathf.RoundToInt(characterController.JumpUpSpeed * 1.1f);
             PlayParticleEffect(jumpPrefab, other.transform.position);
@@ -28,6 +30,7 @@ public class BoostJumpScript : MonoBehaviour
 
         if (other.gameObject.CompareTag("BoostFast"))
         {
+            AudioSource.PlayClipAtPoint(soundFast, transform.position);
             Debug.Log("Çarpýþma oldu ve hareket hýzý artýrýldý");
             characterController.MaxStableMoveSpeed = Mathf.RoundToInt(characterController.MaxStableMoveSpeed * 1.1f);
             PlayParticleEffect(fastPrefab, other.transform.position);
@@ -36,6 +39,7 @@ public class BoostJumpScript : MonoBehaviour
 
         if (other.gameObject.CompareTag("BoostHealth"))
         {
+            AudioSource.PlayClipAtPoint(soundHealth, transform.position);
             Debug.Log("Çarpýþma oldu ve saðlýk artýrýldý");
             playerHealth.healthSlider.value += 10f;
             PlayParticleEffect(healthPrefab, other.transform.position);

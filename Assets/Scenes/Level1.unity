@@ -85564,6 +85564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startTime: 0
   counterSpeed: 1
+  BoxSpawnSound: {fileID: 8300000, guid: 83829ff414f47a048b5387e4ab33571c, type: 3}
   boxSpawnScript: {fileID: 2023081660}
   NewNpcSpawnScript: {fileID: 1820125729}
   NewNpcSpawnScript2: {fileID: 745111612}
@@ -104676,6 +104677,7 @@ MonoBehaviour:
   Fire: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   HitPoint: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
+  soundFire: {fileID: 8300000, guid: 2352822feb4caa14ebdbc0c713289f8d, type: 3}
   fireRate: 10
   DemageValue: 2
 --- !u!114 &6615662580611611649
@@ -104695,6 +104697,9 @@ MonoBehaviour:
   jumpPrefab: {fileID: 6180969514029881285, guid: a31dd7cd479aa5849b77fcf68d5734e0, type: 3}
   healthPrefab: {fileID: 137082844253685352, guid: 7d7bf11046b3242418714c1891dde94f, type: 3}
   fastPrefab: {fileID: 3085374841354992934, guid: 525c9f252d6dbc84ea460547448e8669, type: 3}
+  soundJump: {fileID: 8300000, guid: cfce0cea076109f478783201b2a9f57f, type: 3}
+  soundFast: {fileID: 8300000, guid: cfce0cea076109f478783201b2a9f57f, type: 3}
+  soundHealth: {fileID: 8300000, guid: cfce0cea076109f478783201b2a9f57f, type: 3}
 --- !u!114 &6615662580611611651
 MonoBehaviour:
   m_ObjectHideFlags: 0
