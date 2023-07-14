@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3975403774397092832
 MeshFilter:
@@ -127,6 +127,7 @@ MonoBehaviour:
   Health: 10
   coinDropper: {fileID: 5618581184781777673}
   coinPrefab: {fileID: 2009970917874335743, guid: 2c47d541b462ea9409793cd569d07561, type: 3}
+  sound: {fileID: 8300000, guid: 2b21ef916f6943c439b71a7c74568878, type: 3}
 --- !u!114 &1850076232125303856
 MonoBehaviour:
   m_ObjectHideFlags: 0

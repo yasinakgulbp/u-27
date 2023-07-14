@@ -169,6 +169,7 @@ MonoBehaviour:
   Health: 10
   coinDropper: {fileID: 6452220000429130337}
   coinPrefab: {fileID: 2009970917874335743, guid: f73de106778511f4e9be6952a97e283a, type: 3}
+  sound: {fileID: 8300000, guid: b7b5a6156961bac44a67504d42ce6fcf, type: 3}
 --- !u!54 &2637034317627189664
 Rigidbody:
   m_ObjectHideFlags: 0

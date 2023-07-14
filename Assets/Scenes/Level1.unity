@@ -44341,6 +44341,7 @@ MonoBehaviour:
   Health: 10
   coinDropper: {fileID: 926725837}
   coinPrefab: {fileID: 2009970917874335743, guid: f73de106778511f4e9be6952a97e283a, type: 3}
+  sound: {fileID: 0}
 --- !u!195 &926725839
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -70950,10 +70951,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2411736201453935692, guid: b13188823310af344ac7faaa394de104, type: 3}
-      propertyPath: Health
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 4495807599675336393, guid: b13188823310af344ac7faaa394de104, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -103837,11 +103834,11 @@ PrefabInstance:
       objectReference: {fileID: 5573864683772550979}
     - target: {fileID: 7849488065579800866, guid: 564d97a071c6c204288c37ba6f9d84b4, type: 3}
       propertyPath: velocity.x
-      value: -0.2904955
+      value: -0.3408541
       objectReference: {fileID: 0}
     - target: {fileID: 7849488065579800866, guid: 564d97a071c6c204288c37ba6f9d84b4, type: 3}
       propertyPath: velocity.z
-      value: -0.71814436
+      value: 0.09349071
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
