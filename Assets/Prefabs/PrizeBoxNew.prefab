@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5970594858986666348}
   m_Layer: 0
   m_Name: PrizeBoxNew
-  m_TagString: Enemy
+  m_TagString: PrizeBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +36,7 @@ Transform:
   m_Children:
   - {fileID: 6549409286860572404}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1656785175800312608
 MeshFilter:

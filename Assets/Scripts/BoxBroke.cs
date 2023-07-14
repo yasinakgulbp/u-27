@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BoxBroke : MonoBehaviour
 {
-    public int Health = 10;
+    public int Health = 2;
     public BoxRewardDropper BoxRewardDropper;
     public GameObject coinPrefab;
     public GameObject healthPrefab;

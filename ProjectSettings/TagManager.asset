@@ -12,6 +12,7 @@ TagManager:
   - BoostFast
   - Engel
   - BoostHealth
+  - PrizeBox
   layers:
   - Default
   - TransparentFX
