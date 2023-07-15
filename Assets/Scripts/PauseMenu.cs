@@ -20,13 +20,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject upgradeMenu;
     private bool isPausedis = true;
 
-    public AudioClip clickSound;
-    public AudioClip fastSound;
-    public AudioClip jumpSound;
-    public AudioClip healthSound;
-    public AudioClip droneDamageSound;
-    public AudioClip characterDamageSound;
-    public AudioClip fireRateSound;
+    public AudioClip clickSound, fastSound, jumpSound, healthSound, characterDamageSound, droneDamageSound, fireRateSound;
+
 
 
     private AudioSource audioSource;
