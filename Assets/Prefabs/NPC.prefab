@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5085855294603483191
 MeshFilter:
@@ -169,7 +169,7 @@ MonoBehaviour:
   Health: 10
   coinDropper: {fileID: 6452220000429130337}
   coinPrefab: {fileID: 2009970917874335743, guid: f73de106778511f4e9be6952a97e283a, type: 3}
-  PoisonPrefab: {fileID: 7053385775836331393, guid: 354b6251e950209409c75ab984acf000, type: 3}
+  PoisonPrefab: {fileID: 7131401307255788800, guid: bdb1668dd449b0845bbd1f568e6488eb, type: 3}
   sound: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
 --- !u!54 &2637034317627189664
 Rigidbody:
@@ -210,4 +210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 414ae80edbc866a44b62850533d51ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnHeight: 1
+  spawnHeightCoin: 1
+  spawnHeightPoison: 0
+  poisonDuration: 3

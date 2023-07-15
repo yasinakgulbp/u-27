@@ -7,7 +7,9 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public float maxHealth = 100f; // Maksimum can deðeri
+    public float PoisonDemageValue = 1f; // Maksimum can deðeri
     public float currentHealth; // Mevcut can deðeri
+    public AudioClip soundPoison;
 
     public Slider healthSlider; // Caný göstermek için Slider
     public Text Healthtext;
@@ -31,6 +33,15 @@ public class PlayerHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy") && !isDead) // Eðer düþmanla temas olduysa ve ölmediyse
         {
             TakeDamage(10f); // Caný azaltan fonksiyonu çaðýr, parametre olarak alýnan deðer düþmanýn verdiði zarardýr (örneðin 10)
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Poison") && !isDead) // Eðer düþmanla temas olduysa ve ölmediyse
+        {
+            Debug.Log("zehire bastýn 1 can gittti moruk!!");
+            AudioSource.PlayClipAtPoint(soundPoison, transform.position);
+            TakeDamage(PoisonDemageValue); // Caný azaltan fonksiyonu çaðýr, parametre olarak alýnan deðer düþmanýn verdiði zarardýr (örneðin 10)
         }
     }
 
