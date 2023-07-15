@@ -7,6 +7,7 @@ public class StoreController : MonoBehaviour
 {
     public TMP_Text MoneyCount;
     public TMP_Text MoneyCount2;
+    public GameObject panel;
     private int money;
 
     public AudioClip buySound;
@@ -25,6 +26,11 @@ public class StoreController : MonoBehaviour
 
     }
 
+    public void panelkapat()
+    {
+        panel.SetActive(false);
+    }
+
     public void SatýnAlim1()
     {
         money = PlayerPrefs.GetInt("money");
@@ -39,6 +45,8 @@ public class StoreController : MonoBehaviour
             audioSource.clip = notbuySound; // Ses dosyasýný atama
             audioSource.Play(); // Ses dosyasýný çal
         }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 1);
     }
 
     public void SatýnAlim2()
@@ -87,6 +95,8 @@ public class StoreController : MonoBehaviour
             audioSource.clip = notbuySound; // Ses dosyasýný atama
             audioSource.Play(); // Ses dosyasýný çal
         }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 2);
     }
 
     public void SatýnAlim5()

@@ -98,6 +98,7 @@ namespace KinematicCharacterController.Examples
             Motor.CharacterController = this;
         }
 
+
         /// <summary>
         /// Handles movement state transitions and enter/exit callbacks
         /// </summary>
