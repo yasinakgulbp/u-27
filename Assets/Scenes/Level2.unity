@@ -62589,7 +62589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2142217715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63649,7 +63649,7 @@ MonoBehaviour:
   HitPoint: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
   soundFire: {fileID: 8300000, guid: 2352822feb4caa14ebdbc0c713289f8d, type: 3}
-  fireRate: 2
+  fireRate: 16
   DemageValue: 2
 --- !u!114 &6615662580611611649
 MonoBehaviour:
