@@ -7,6 +7,7 @@ public class enemy6 : MonoBehaviour
     public int Health = 10;
     public CoinDropper coinDropper;
     public GameObject coinPrefab;
+    public GameObject PoisonPrefab;
     public AudioClip sound;
 
     public void Damage(int damage)
@@ -22,6 +23,7 @@ public class enemy6 : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(sound, transform.position);
         coinDropper.DropCoin(coinPrefab);
+        coinDropper.DropPoison(PoisonPrefab);
         Destroy(this.gameObject);
     }
 }
