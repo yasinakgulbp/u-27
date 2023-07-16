@@ -5,7 +5,7 @@ using UnityEngine;
 public class shieldScript : MonoBehaviour
 {
     private bool hasCollided = false; // Ýlk çarpýþma kontrolü için flag
-    public float collisionCooldown = 1f; // Çarpýþma aralýðý için bekleme süresi
+    public float collisionCooldown = 4f; // Çarpýþma aralýðý için bekleme süresi
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,10 +14,14 @@ public class shieldScript : MonoBehaviour
             // Çarpýþma oldu ve Enemy'e 10 damage verildi
             other.gameObject.GetComponent<enemy6>().Damage(10);
             hasCollided = true; // Ýlk çarpýþma gerçekleþtiðinde flag'i true yap
-            Invoke("ResetCollisionFlag2", 0.2f); // 1 saniye sonra ResetCollisionFlag metodunu çaðýr
+            Invoke("ResetCollisionFlag2", 0.1f); // 1 saniye sonra ResetCollisionFlag metodunu çaðýr
             Invoke("ResetCollisionFlag", collisionCooldown); // 1 saniye sonra ResetCollisionFlag metodunu çaðýr
             
         }
+    }
+    public void degerArttir()
+    {
+        collisionCooldown -= 1f;
     }
 
     private void ResetCollisionFlag()

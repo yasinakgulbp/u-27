@@ -9,12 +9,14 @@ public class PauseMenu : MonoBehaviour
 {
     //public ExampleCharacterController characterController;
     public UpgradeSkill UpgradeSkillScript;
+    public shieldScript shieldScript;
     public UpgradeDroneSkill UpgradeDroneSkillScript;
 
     public Slider slider;
     public Slider HealtSlider;
 
     public GameObject safeZonePrefab;
+    public bool SafeZoneIsActive = false;
 
     public GameObject pauseMenuUI;
     private bool isPaused = true;
@@ -33,6 +35,7 @@ public class PauseMenu : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
 
         UpgradeSkillScript = FindObjectOfType<UpgradeSkill>();
+        shieldScript = FindObjectOfType<shieldScript>();
         //characterController = GetComponent<ExampleCharacterController>();
         pauseMenuUI.SetActive(false);
         upgradeMenu.SetActive(false);
@@ -90,9 +93,12 @@ public class PauseMenu : MonoBehaviour
     public void UpgradeSafeZone() //BURAYA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     {
         safeZonePrefab.SetActive(true);
-        upgradeMenu.SetActive(false);
-        Time.timeScale = 1f;
-        isPausedis = false;
+        SafeZoneIsActive = true;
+        if (SafeZoneIsActive)
+        {   Debug.Log(" if içerisindeyim çalýþmýþ olmasý gerekiyor ");
+            shieldScript.degerArttir();
+        }
+        UpgradeSkillAfter();
     }
 
 

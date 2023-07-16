@@ -53736,10 +53736,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UpgradeSkillScript: {fileID: 6615662580611611651}
+  shieldScript: {fileID: 4984980825017965779}
   UpgradeDroneSkillScript: {fileID: 2142217721}
   slider: {fileID: 509372624}
   HealtSlider: {fileID: 1945789473}
   safeZonePrefab: {fileID: 4932088507161103719}
+  SafeZoneIsActive: 0
   pauseMenuUI: {fileID: 1761053971}
   upgradeMenu: {fileID: 1214352036}
   clickSound: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
@@ -104716,6 +104718,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4532360224773344939, guid: db684788d6f8c2a4f87cf64f49e2c007, type: 3}
+      propertyPath: collisionCooldown
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7489078174833478511, guid: db684788d6f8c2a4f87cf64f49e2c007, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -104775,6 +104781,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7489078174833478511, guid: db684788d6f8c2a4f87cf64f49e2c007, type: 3}
   m_PrefabInstance: {fileID: 4266107337319731446}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4984980825017965779 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4532360224773344939, guid: db684788d6f8c2a4f87cf64f49e2c007, type: 3}
+  m_PrefabInstance: {fileID: 4266107337319731446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4932088507161103719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086f82db9d44ea34082715812e610b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5007083945680094598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105563,6 +105580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterController: {fileID: 6611558534064293502}
   autoAimScript: {fileID: 6615662580611611648}
+  SafeZoneScript: {fileID: 4984980825017965779}
 --- !u!114 &6615662580611611652
 MonoBehaviour:
   m_ObjectHideFlags: 0
