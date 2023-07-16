@@ -94,10 +94,6 @@ public class PauseMenu : MonoBehaviour
     {
         safeZonePrefab.SetActive(true);
         SafeZoneIsActive = true;
-        if (SafeZoneIsActive)
-        {   Debug.Log(" if içerisindeyim çalýþmýþ olmasý gerekiyor ");
-            shieldScript.degerArttir();
-        }
         UpgradeSkillAfter();
     }
 

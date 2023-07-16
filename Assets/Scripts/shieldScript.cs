@@ -19,10 +19,6 @@ public class shieldScript : MonoBehaviour
             
         }
     }
-    public void degerArttir()
-    {
-        collisionCooldown -= 1f;
-    }
 
     private void ResetCollisionFlag()
     {   
