@@ -246,3 +246,92 @@ Silah ve savunma geliştirmelerinin tasarlanması ve eklenmesi: Tasarımlar yap�
 Takım, planlanan görevlerin çoğunu tamamladı, ancak bazı zorluklar ve beklenmedik durumlar olsa dahi hedeflerin büyük kısmını tamamlamış olduk.
 
 Özetle, 2. sprintin genel değerlendirmesi olumlu oldu. Tamamlanan görevlerin yanı sıra, hataların düzeltilmesi ve ilerlemeye yönelik çalışmalar için daha fazla zaman gerektiği belirlendi. Takım, sıkı bir çalışma temposuyla önemli görevleri başarıyla tamamladı ve gelecek adımları planlamak üzere ilerliyor. 3.sprintten beklentilerimiz ise İlerleme kaydetme sisteminin tamamlanması, silah ve savunma geliştirmelerinin hatalardan arındırılarak eklenmesi ve genel olarak projede kalan hataların düzeltilmesi hedefleniyor. Ayrıca, oyunun performansını iyileştirmek ve oynanabilirliği artırmak için optimizasyon çalışmaları yapılacak. Tam anlamıyla oyunun görselve ses tasarımına odaklanmış bir şekilde oyunumuza tamamlamayı planlıyoruz. Trailerı hazırlamak için sabırsızlanıyoruz. 
+
+# Sprint 3
+
+**Daily Scrum Notları:** : https://drive.google.com/file/d/18q-VLkFZqD2sftZTgbsjL_rsS9nWVoOK/view?usp=sharing
+
+## Puanlama
+
+**Sprint içinde tamamlanması tahmin edilen puan** : 140 Puan
+
+**Sprint sonunda ulaşılan puan**: 140 Puan **[5 kişilik görev planlamasını 3 kişi]**
+
+**[Hedef**: Görsel ve Ses Tasarımı ve Tanıtım Montajı - Son Testler **]**
+
+- Oyun dünyasının görsel tasarımının yapılması ve detaylandırılması. 30/30
+- Düşman karakterinin görsel tasarımının yapılması ve animasyonların eklenmesi. 20/20
+- Ses efektlerinin ve arka plan müziğinin seçilmesi ve eklenmesi. 20/20
+- Tanıtım videosu için çekimleri ve montajı. 20/20
+- Oyunun performans testlerinin yapılması ve iyileştirmelerin yapılması. (Önceki sprintten kalan görevlerin tamamlanması) 30/30
+- Oyunun genel testlerinin yapılması ve Build alma işlemi 20/20
+
+## Product Backlog:
+
+Sprint board screenshotları:
+
+![Backlog 1.1](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog1.1.png)
+
+![Backlog 1.2](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog1.2.png)
+
+![Backlog 1.3](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog1.3.png)
+
+![Backlog 1.4](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog1.4.png)
+
+![Backlog 1.5](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog1.5.png)
+
+![Backlog 1.6](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog1.6.png)
+
+![Backlog 2.1](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog2.1.png)
+
+![Backlog 2.2](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog2.2.png)
+
+![Backlog 3.1](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog3.1.png)
+
+![Backlog 3.2](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog3.2.png)
+
+![Backlog 3.3](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog3.3.png)
+
+![Backlog 3.4](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog3.4.png)
+
+![Backlog 3.5](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog3.5.png)
+
+![Backlog 3.6](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog3.6.png)
+
+![Backlog 3.7](https://github.com/yasinakgulbp/u-27/blob/main/images/SprintBacklog3.7.png)
+
+## Ürün Durum:
+
+
+
+# Sprint Raporu
+
+## Sprint Planlama Tarihi: 19.06.23 – 02.07.23
+
+## Sprint Süresi: 2 Hafta
+
+## Hedef
+
+Hedef: Görsel ve Ses Tasarımı ve Tanıtım Montajı - Son Testler
+
+## Özet
+
+Bu sprint sürecinde takımımız, oyunun görsel ve ses tasarımıyla birlikte tanıtım montajı ve son testler üzerinde çalıştı. Aşağıda sprint süresince gerçekleştirilen görevler ve elde edilen sonuçlar yer almaktadır:
+Görevler:
+- Oyun dünyasının görsel tasarımının yapılması ve detaylandırılması: Takım, oyun dünyasının görsel tasarımını tamamladı ve detaylandırdı. Oyunun atmosferini yansıtan görseller oluşturuldu ve oyun dünyasının görsel kalitesi iyileştirildi.
+- Düşman karakterlerinin görsel tasarımının yapılması ve animasyonların eklenmesi: düşman karakterlerinin görsel tasarımı tamamlandı ve animasyonlar başarıyla oyuna entegre edildi. Düşman karakterlerinin canlı ve etkileyici görünmesi sağlandı.
+- Ses efektlerinin ve arka plan müziğinin seçilmesi ve eklenmesi: Takım, oyun için uygun ses efektleri ve arka plan müziği seçti ve bunları oyunun içerisine başarıyla entegre etti. Oyuncuların oyun deneyimini destekleyen sesler ve müzikler oluşturuldu.
+- Tanıtım videosu için çekimleri ve montajı: Oyunun tanıtım videosu için çekimler gerçekleştirildi ve montajı tamamlandı. Tanıtım videosu, oyunun önemli özelliklerini ve heyecanını yansıtan etkileyici bir şekilde hazırlandı.
+- Oyunun performans testlerinin yapılması ve iyileştirmelerin yapılması: Takım, oyunun performans testlerini gerçekleştirdi ve elde edilen sonuçları analiz etti. Performans sorunları tespit edilip çözümler üretildi. Oyunun daha akıcı ve istikrarlı bir şekilde çalışması sağlandı.
+- Oyunun genel testlerinin yapılması ve Build alma işlemi: Oyunun genel testlerini tamamladık ve sonuçları değerlendirdik. Hatalar giderildi ve istikrarlı bir oyun deneyimi sunulması için gerekli düzeltmeler yapıldı. Son olarak, oyunun Build işlemi gerçekleştirildi ve oyunun kullanıma hazır hale getirildi.
+
+Sonuç olarak, takımımız sprint süresince belirlenen hedeflere ulaştı ve tüm görevleri tamamladı. Oyun dünyasının görsel tasarımı ve detaylandırılması, zombi düşmanlarının görsel tasarımı ve animasyonları, ses efektleri ve arka plan müziği seçimi, tanıtım videosunun çekimi ve montajı, performans testleri ve iyileştirmeler, genel testler ve Build alma işlemi başarıyla tamamlandı.
+
+## Sprint Retrospektifi:
+
+Hem bu sprint değerlendirmesi hem de genel bootcamp sürecinin değerlendirmesini takımca yaptık ve takım olarak çok fazla şansızlıklarla dolu bir süreç yaşadık. En büyük örneği 3 kişi olarak yolumuza devam etmekti fakat hiçbir şekilde amacımızdan kopmadık, ekstra fazla çalışmaya özen gösterdik. Bu takımda emek veren 3 arkadaş olarak hem Unity anlamında hem de projenin yürütülmesi, yürütülürken alınacak aksiyonlar gibi konularda çok fazla deneyim elde ettik. Oyunumuzu özenle hazırladık ve her zaman hedefimizi düşürmeden hareket ettik tüm bu şansızlıklara rağmen. Sprint boyunca elde edilen başarılar için tüm takım üyelerine teşekkür ederim.
+
+## Sprint Review:
+
+Takım olarak, ikinci sprinti başarıyla tamamladık. Planladığımız görevleri ve oyunumuzu istenen kriterlere uygun bir şekilde başarıyla tamamladık. Yoğun bir çalışma temposuyla, takvimdeki kısıtlamalara rağmen projeyi başarıyla ilerlettik. Takımımız yoğunluklu olarak 3 kişi çalıştı ve background bilgilerimizi de ele aldığımızda fazlaca araştırma yaparak üzerinde çalışmamız gerekti. Tüm bunlarla birlikte çok büyük bir azim göstererek oyunumuz çıkardık. Bu sprintteki başarılarımızdan dolayı takımımı kutluyorum.
+
