@@ -1,0 +1,33 @@
+newmtl Addons 2_7fc81734-5e6c-4580-8c38-3d6ec7b35240
+Kd 0.192 0.816 0.667
+d 1.000
+newmtl _switchable 3_17aed7b2-0a28-4d61-9ce8-5217c095455f
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl _switchable 2_c68de0a2-a0c3-4beb-8df0-eb9b06230adf
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Addons 1_bf181e56-6f44-4ec7-a323-9d647afda5d7
+Kd 0.192 0.816 0.667
+d 1.000
+newmtl Visor_25449679-89b8-4eeb-8936-c813afb31529
+Kd 0.000 0.000 0.000
+d 1.000
+newmtl Backpack_140eb93d-033a-4b3f-b33d-ec206d729967
+Kd 0.380 0.000 1.000
+d 1.000
+newmtl _switchable 1_6446d59a-c6cd-4504-a047-599be6067d3b
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl _switchable_7e9cfe90-dba2-4fc8-9824-f2f601761ec0
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Gloves n Boots 2_dbe9ce60-87c9-4a73-a67a-97fca2e267a4
+Kd 0.380 0.000 1.000
+d 1.000
+newmtl Gloves n Boots 1_889c3420-3108-470e-a2d1-52fdcca86b33
+Kd 0.380 0.000 1.000
+d 1.000
+newmtl Gloves n Boots_1be9f98b-6c22-4f4a-bd9a-491295edc91a
+Kd 0.380 0.000 1.000
+d 1.000

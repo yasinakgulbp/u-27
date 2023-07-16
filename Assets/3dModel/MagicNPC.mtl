@@ -1,0 +1,22 @@
+newmtl _switchable_e1a6fcb5-fd35-43c1-8cf7-80b15f6b578c
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Smoke_a8fa59c8-2553-4a53-bb8f-492e56d0a813
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Linear_Gradient_Texture.jpg
+newmtl Head_46d5162e-5c39-4554-9a08-b5dc0cdb953d
+Kd 1.000 0.851 0.000
+d 1.000
+newmtl Eyes and mouth_a415d37f-ef20-4f55-b4ae-cf7b53be9859
+Kd 0.561 0.482 0.051
+d 1.000
+newmtl Plastic_e837977c-e54a-458f-856e-fb1ebec3329b
+Kd 0.000 0.000 0.000
+d 1.000
+newmtl Chrome Glossy_4d8121fd-3928-48b4-8b29-9585126e2ead
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Falling Star_8bb1d2c8-6b95-47b5-a789-3b349051b4ee
+Kd 0.675 0.122 0.749
+d 1.000
