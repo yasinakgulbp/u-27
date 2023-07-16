@@ -14,6 +14,8 @@ public class PauseMenu : MonoBehaviour
     public Slider slider;
     public Slider HealtSlider;
 
+    public GameObject safeZonePrefab;
+
     public GameObject pauseMenuUI;
     private bool isPaused = true;
 
@@ -34,6 +36,9 @@ public class PauseMenu : MonoBehaviour
         //characterController = GetComponent<ExampleCharacterController>();
         pauseMenuUI.SetActive(false);
         upgradeMenu.SetActive(false);
+
+        //safeZonePrefab.SetActive(false);
+
         Time.timeScale = 1f;
         isPaused = false;
         isPausedis = false;
@@ -83,6 +88,16 @@ public class PauseMenu : MonoBehaviour
                 Pause1();
         }
     }
+
+    public void UpgradeSafeZone() //BURAYA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    {
+        safeZonePrefab.SetActive(true);
+        upgradeMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPausedis = false;
+    }
+
+
     public void Resume()
     {
         ClickSound();
