@@ -49,7 +49,7 @@ U-27 Yol Haritası Link: https://drive.google.com/file/d/1Y7rh4QXt4bQ7LRvJzydazb
 
 U- 27 Discord Link: https://discord.gg/bumgN9ZGn
 
-## Puanlama
+## Puanlama Mantığı 
 
 **Sprint içinde tamamlanması tahmin edilen puan** : 100 Puan
 **[Hedef:** Oyun dünyasının temel yapısının ve mekaniklerinin oluşturulması. **]**
@@ -97,7 +97,7 @@ Sprint board screenshotları:
 
 Oyun dünyasının temel yapısının ve mekaniklerinin oluşturulması.
 
-## Özet
+## Sprint Notları (Özet)
 
 Bu sprint sürecinde, takımımız aşağıdaki görevleri tamamladı:
 
@@ -129,7 +129,7 @@ yoğun bir sürece hazırlanıyoruz.
 
 **Daily Scrum Notları:** : https://drive.google.com/file/d/16O6ke48cCKVM2f35sJubjFDZyaD0CQ_h/view?usp=drive_link
 
-## Puanlama
+## Puanlama Mantığı 
 
 **Sprint içinde tamamlanması tahmin edilen puan** : 150 Puan
 
@@ -172,7 +172,6 @@ Sprint board screenshotları:
 
 ![6](https://github.com/yasinakgulbp/u-27/blob/main/images/saldiriGif30FPS.gif)
 
-
 # Sprint Raporu
 
 ## Sprint Planlama Tarihi: 19.06.23 – 02.07.23
@@ -183,7 +182,7 @@ Sprint board screenshotları:
 
 Hedef: Oyun İlerlemesinin ve Özelliklerin Eklenmesi
 
-## Özet
+## Sprint Notları (Özet)
 
 Görev 1: Seviye tasarımının oluşturulması ve ilk seviyenin eklenmesi: Oyuncunun farklı seviyelerde ilerlediği bir oyun yapısı oluşturun. Her seviye zorluk açısından artış göstermeli ve daha güçlü düşmanlar içermelidir.
 - Yeni tip NPC'lerin eklenmesi.
@@ -251,7 +250,7 @@ Takım, planlanan görevlerin çoğunu tamamladı, ancak bazı zorluklar ve bekl
 
 **Daily Scrum Notları:** : https://drive.google.com/file/d/18q-VLkFZqD2sftZTgbsjL_rsS9nWVoOK/view?usp=sharing
 
-## Puanlama
+## Puanlama Mantığı 
 
 **Sprint içinde tamamlanması tahmin edilen puan** : 140 Puan
 
@@ -306,7 +305,7 @@ Sprint board screenshotları:
 
 # Sprint Raporu
 
-## Sprint Planlama Tarihi: 19.06.23 – 02.07.23
+## Sprint Planlama Tarihi: 03.07.23 - 17.07.23
 
 ## Sprint Süresi: 2 Hafta
 
@@ -314,7 +313,7 @@ Sprint board screenshotları:
 
 Hedef: Görsel ve Ses Tasarımı ve Tanıtım Montajı - Son Testler
 
-## Özet
+## Sprint Notları (Özet)
 
 Bu sprint sürecinde takımımız, oyunun görsel ve ses tasarımıyla birlikte tanıtım montajı ve son testler üzerinde çalıştı. Aşağıda sprint süresince gerçekleştirilen görevler ve elde edilen sonuçlar yer almaktadır:
 Görevler:
