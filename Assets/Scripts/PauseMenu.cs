@@ -37,8 +37,6 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         upgradeMenu.SetActive(false);
 
-        //safeZonePrefab.SetActive(false);
-
         Time.timeScale = 1f;
         isPaused = false;
         isPausedis = false;
