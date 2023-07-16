@@ -49,10 +49,10 @@ U-27 Yol Haritası Link: https://drive.google.com/file/d/1Y7rh4QXt4bQ7LRvJzydazb
 
 U- 27 Discord Link: https://discord.gg/bumgN9ZGn
 
-## Puanlama Mantığı 
-
 **Sprint içinde tamamlanması tahmin edilen puan** : 100 Puan
 **[Hedef:** Oyun dünyasının temel yapısının ve mekaniklerinin oluşturulması. **]**
+
+## Puanlama Mantığı 
 
 - Oyun için fikir oluşturulması 10P/10P
 - Karakter kontrollerinin oluşturulması ve test edilmesi 10P/10P
@@ -129,13 +129,14 @@ yoğun bir sürece hazırlanıyoruz.
 
 **Daily Scrum Notları:** : https://drive.google.com/file/d/16O6ke48cCKVM2f35sJubjFDZyaD0CQ_h/view?usp=drive_link
 
-## Puanlama Mantığı 
 
 **Sprint içinde tamamlanması tahmin edilen puan** : 150 Puan
 
 **Sprint sonunda ulaşılan puan**: 125 Puan **[5 kişilik görev planlamasını 3 kişi ile 125 puanla tamamalandı.]**
 
 **[Hedef**: Oyun İlerlemesinin ve Özelliklerin Eklenmesi **]**
+
+## Puanlama Mantığı 
 
 - Seviye tasarımının oluşturulması ve ilk seviyenin eklenmesi. 10P/10P
 - Ödül sisteminin oluşturulması ve ödüllerin belirlenmesi. 30P/30P
@@ -250,13 +251,14 @@ Takım, planlanan görevlerin çoğunu tamamladı, ancak bazı zorluklar ve bekl
 
 **Daily Scrum Notları:** : https://drive.google.com/file/d/18q-VLkFZqD2sftZTgbsjL_rsS9nWVoOK/view?usp=sharing
 
-## Puanlama Mantığı 
 
 **Sprint içinde tamamlanması tahmin edilen puan** : 140 Puan
 
 **Sprint sonunda ulaşılan puan**: 140 Puan **[5 kişilik görev planlamasını 3 kişi]**
 
 **[Hedef**: Görsel ve Ses Tasarımı ve Tanıtım Montajı - Son Testler **]**
+
+## Puanlama Mantığı 
 
 - Oyun dünyasının görsel tasarımının yapılması ve detaylandırılması. 30/30
 - Düşman karakterinin görsel tasarımının yapılması ve animasyonların eklenmesi. 20/20
