@@ -63143,7 +63143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2124591157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63173,7 +63173,7 @@ MonoBehaviour:
   Fire: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   HitPoint: {fileID: 1000012909287652, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
   tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
-  fireRate: 30
+  fireRate: 16
   DemageValue2: 2
 --- !u!114 &2124591159
 MonoBehaviour:
@@ -63893,7 +63893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2142217715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64017,7 +64017,7 @@ MonoBehaviour:
   Fire: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d, type: 3}
   HitPoint: {fileID: 1000012909287652, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
   tracerEffectPrefab: {fileID: 1493477419964553483, guid: 2c5efcc9a1745674abfd899eb9ec2eca, type: 3}
-  fireRate: 30
+  fireRate: 16
   DemageValue2: 2
 --- !u!114 &2142217721
 MonoBehaviour:
@@ -64991,7 +64991,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6508550501183087756}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3942c94fee7e34080de3c0ebe2396f, type: 3}
   m_Name: 
