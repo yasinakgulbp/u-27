@@ -15,6 +15,7 @@ TagManager:
   - PrizeBox
   - Poison
   - MagnetCapsule
+  - Sphere
   layers:
   - Default
   - TransparentFX

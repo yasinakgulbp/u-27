@@ -7,6 +7,7 @@ public class CoinMagnet : MonoBehaviour
     private float magnetForce = 0f; // Coin'lerin hareket hýzý
     public float magnetDuration = 5f; // Mýknatýs etkisinin süresi
     private float magnetTimer = 0f; // Mýknatýs etkisi süresini takip etmek için zamanlayýcý
+    public float coinMagnetForce = 150f; // Coin'lerin hareket hýzý
 
     private void Start()
     {
@@ -45,5 +46,28 @@ public class CoinMagnet : MonoBehaviour
     public void SetMagnetForce(float force)
     {
         magnetForce = force;
+    }
+
+    private void CollectCoins()
+    {
+        GameObject[] coins = GameObject.FindGameObjectsWithTag("Coin");
+
+        foreach (GameObject coin in coins)
+        {
+            CoinMagnet coinMagnet = coin.GetComponent<CoinMagnet>();
+            coinMagnet.SetMagnetTarget();
+            coinMagnet.SetMagnetForce(coinMagnetForce);
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider sphereMagnet)
+    {
+        if (sphereMagnet.CompareTag("Coin"))
+        {
+            CoinMagnet coinMagnet = sphereMagnet.GetComponent<CoinMagnet>();
+            coinMagnet.SetMagnetTarget();
+            coinMagnet.SetMagnetForce(coinMagnetForce);
+        }
     }
 }
