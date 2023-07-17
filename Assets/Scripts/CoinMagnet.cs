@@ -7,7 +7,7 @@ public class CoinMagnet : MonoBehaviour
     private float magnetForce = 0f; // Coin'lerin hareket hýzý
     public float magnetDuration = 5f; // Mýknatýs etkisinin süresi
     private float magnetTimer = 0f; // Mýknatýs etkisi süresini takip etmek için zamanlayýcý
-    public float coinMagnetForce = 150f; // Coin'lerin hareket hýzý
+    public float coinMagnetForce = 30f; // Coin'lerin hareket hýzý
 
     private void Start()
     {

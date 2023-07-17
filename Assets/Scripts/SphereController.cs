@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SphereController : MonoBehaviour
 {
-    public float coinMagnetForce = 150f; // Coin'lerin hareket hýzý
+    public float coinMagnetForce = 30f; // Coin'lerin hareket hýzý
 
     private bool isSphereCollected = false;
 
