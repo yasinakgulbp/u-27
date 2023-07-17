@@ -113,5 +113,7 @@ public class StoreController : MonoBehaviour
             audioSource.clip = notbuySound; // Ses dosyasýný atama
             audioSource.Play(); // Ses dosyasýný çal
         }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 3);
     }
 }
