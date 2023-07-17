@@ -105524,7 +105524,7 @@ MonoBehaviour:
   maxHealth: 100
   PoisonDemageValue: 1
   currentHealth: 0
-  soundPoison: {fileID: 8300000, guid: 83829ff414f47a048b5387e4ab33571c, type: 3}
+  soundPoison: {fileID: 8300000, guid: 1d74880bed4586644a16a79a2d9dc8af, type: 3}
   healthSlider: {fileID: 1945789473}
   Healthtext: {fileID: 0}
 --- !u!114 &6615662580611611648
@@ -105580,7 +105580,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterController: {fileID: 6611558534064293502}
   autoAimScript: {fileID: 6615662580611611648}
-  SafeZoneScript: {fileID: 4984980825017965779}
 --- !u!114 &6615662580611611652
 MonoBehaviour:
   m_ObjectHideFlags: 0
