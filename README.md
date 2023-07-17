@@ -303,7 +303,11 @@ Sprint board screenshotları:
 
 ## Ürün Durum:
 
+![1](https://github.com/yasinakgulbp/u-27/blob/main/images/gif2Sprint3.gif)
 
+![2](https://github.com/yasinakgulbp/u-27/blob/main/images/gif3Sprint3.gif)
+
+![3](https://github.com/yasinakgulbp/u-27/blob/main/images/gifSrprint3.gif)
 
 # Sprint Raporu
 
