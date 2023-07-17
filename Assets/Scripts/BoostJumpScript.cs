@@ -9,6 +9,11 @@ public class BoostJumpScript : MonoBehaviour
     public GameObject jumpPrefab;
     public GameObject healthPrefab;
     public GameObject fastPrefab;
+
+
+    public GameObject MagnetPrefab;
+    private bool MagnetIsActive = true;
+
     public AudioClip soundJump, soundFast, soundHealth;
 
     private void Start()
@@ -45,7 +50,18 @@ public class BoostJumpScript : MonoBehaviour
             PlayParticleEffect(healthPrefab, other.transform.position);
             Destroy(other.gameObject);
         }
+        if (other.gameObject.CompareTag("MagnetCloser"))
+        {
+                Debug.Log("Çarpýþma oldu ve MAGNET KAPATILDI------");
+                MagnetPrefab.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("MagnetOpener"))
+        {
+                Debug.Log("Çarpýþma oldu ve MAGNET AÇILDI ++++++");
+                MagnetPrefab.SetActive(true);
+        }
     }
+
 
     private void PlayParticleEffect(GameObject particlePrefab, Vector3 position)
     {

@@ -16,6 +16,8 @@ TagManager:
   - Poison
   - MagnetCapsule
   - Sphere
+  - MagnetCloser
+  - MagnetOpener
   layers:
   - Default
   - TransparentFX
