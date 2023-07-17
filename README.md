@@ -14,7 +14,7 @@
 
 ## Ürün İsmi
 
-[Henüz tüm takım üyeleri katılamadığından ikinci sprintde karar verilmesi planlanmıştır.]
+**Cosmic Conquest**
 
 ## Ürün Açıklaması
 
