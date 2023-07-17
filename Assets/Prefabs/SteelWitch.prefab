@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   coinDropper: {fileID: 6613678872461871675}
-  coinPrefab: {fileID: 2009970917874335743, guid: f73de106778511f4e9be6952a97e283a, type: 3}
+  coinPrefab: {fileID: 4413229230212344024, guid: 2d45e6ff92a141d439ba25fac8e6a1a2, type: 3}
   PoisonPrefab: {fileID: 7131401307255788800, guid: bdb1668dd449b0845bbd1f568e6488eb, type: 3}
   sound: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
 --- !u!54 &4349839220834482923
@@ -285,15 +285,15 @@ PrefabInstance:
     - target: {fileID: -7992361032242057719, guid: 5c345ae8d73be49418cc49c8857bb855, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 61618e2271b3bdb47b5b4c628d9b092c, type: 2}
+      objectReference: {fileID: 2100000, guid: 54eb0a880c35ecd4fa56b3b6c33e8aaa, type: 2}
     - target: {fileID: -7601226680800833775, guid: 5c345ae8d73be49418cc49c8857bb855, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5f412f828842049469cab1389415984b, type: 2}
+      objectReference: {fileID: 2100000, guid: d6e7475a477721949a7fa2353ffb7e32, type: 2}
     - target: {fileID: -1990968323811559735, guid: 5c345ae8d73be49418cc49c8857bb855, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2bada83e0fc35ed4ebab359f1ef10417, type: 2}
+      objectReference: {fileID: 2100000, guid: ad7d3ed0319816940bbf70e52f46866d, type: 2}
     - target: {fileID: 919132149155446097, guid: 5c345ae8d73be49418cc49c8857bb855, type: 3}
       propertyPath: m_Name
       value: Project Name
@@ -301,7 +301,7 @@ PrefabInstance:
     - target: {fileID: 6317578925029434746, guid: 5c345ae8d73be49418cc49c8857bb855, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eb79ec0657b7d6c48942befc5d7b2c37, type: 2}
+      objectReference: {fileID: 2100000, guid: f99c2f606e487bd4ba7c619b09a10f39, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

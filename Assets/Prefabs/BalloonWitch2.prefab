@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1965267541392729335}
   - component: {fileID: 8802316040298089002}
   m_Layer: 0
-  m_Name: BalloonWitch
+  m_Name: BalloonWitch2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,7 +38,7 @@ Transform:
   m_Children:
   - {fileID: 8825323723733758480}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2929625009364956531
 MeshFilter:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   coinDropper: {fileID: 8802316040298089002}
-  coinPrefab: {fileID: 2009970917874335743, guid: 2c47d541b462ea9409793cd569d07561, type: 3}
+  coinPrefab: {fileID: 2326250473633823357, guid: 30f8e241ec0fbc2448f78c3b99766670, type: 3}
   PoisonPrefab: {fileID: 7131401307255788800, guid: bdb1668dd449b0845bbd1f568e6488eb, type: 3}
   sound: {fileID: 8300000, guid: 2b21ef916f6943c439b71a7c74568878, type: 3}
 --- !u!114 &778965043251632464

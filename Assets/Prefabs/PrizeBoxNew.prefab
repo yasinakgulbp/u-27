@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 2
   BoxRewardDropper: {fileID: 5970594858986666348}
-  coinPrefab: {fileID: 2009970917874335743, guid: d308d4ca99d2209428b95f062421ec1c, type: 3}
+  coinPrefab: {fileID: 795603307464798240, guid: 18fed5e7c688c8b4c897b5854ca0a121, type: 3}
   healthPrefab: {fileID: 137082844253685352, guid: 7d7bf11046b3242418714c1891dde94f, type: 3}
   fastPrefab: {fileID: 3085374841354992934, guid: 525c9f252d6dbc84ea460547448e8669, type: 3}
   jumpPrefab: {fileID: 6180969514029881285, guid: a31dd7cd479aa5849b77fcf68d5734e0, type: 3}
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnHeight: 1
-  coinPrefab: {fileID: 2009970917874335743, guid: d308d4ca99d2209428b95f062421ec1c, type: 3}
+  coinPrefab: {fileID: 795603307464798240, guid: 18fed5e7c688c8b4c897b5854ca0a121, type: 3}
   healthPrefab: {fileID: 137082844253685352, guid: 7d7bf11046b3242418714c1891dde94f, type: 3}
   fastPrefab: {fileID: 3085374841354992934, guid: 525c9f252d6dbc84ea460547448e8669, type: 3}
   jumpPrefab: {fileID: 6180969514029881285, guid: a31dd7cd479aa5849b77fcf68d5734e0, type: 3}

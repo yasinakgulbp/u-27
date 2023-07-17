@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   coinDropper: {fileID: 5618581184781777673}
-  coinPrefab: {fileID: 2009970917874335743, guid: 2c47d541b462ea9409793cd569d07561, type: 3}
+  coinPrefab: {fileID: 7796658042148650372, guid: 268dded995c0ebc45a24e4e79464755c, type: 3}
   PoisonPrefab: {fileID: 7131401307255788800, guid: bdb1668dd449b0845bbd1f568e6488eb, type: 3}
   sound: {fileID: 8300000, guid: 2b21ef916f6943c439b71a7c74568878, type: 3}
 --- !u!114 &1850076232125303856
