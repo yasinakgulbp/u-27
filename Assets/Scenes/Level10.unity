@@ -32265,18 +32265,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UpgradeSkillScript: {fileID: 6615662580611611651}
+  shieldScript: {fileID: 0}
   UpgradeDroneSkillScript: {fileID: 2142217721}
   slider: {fileID: 509372624}
   HealtSlider: {fileID: 1945789473}
+  safeZonePrefab: {fileID: 0}
+  SafeZoneIsActive: 0
   pauseMenuUI: {fileID: 1761053971}
   upgradeMenu: {fileID: 1214352036}
-  clickSound: {fileID: 8300000, guid: 5e1a9f876d3dafd47bc6b3dde25135fa, type: 3}
-  fastSound: {fileID: 8300000, guid: 5e1a9f876d3dafd47bc6b3dde25135fa, type: 3}
-  jumpSound: {fileID: 8300000, guid: 5e1a9f876d3dafd47bc6b3dde25135fa, type: 3}
-  healthSound: {fileID: 8300000, guid: 5e1a9f876d3dafd47bc6b3dde25135fa, type: 3}
-  characterDamageSound: {fileID: 8300000, guid: 5e1a9f876d3dafd47bc6b3dde25135fa, type: 3}
-  droneDamageSound: {fileID: 8300000, guid: 5e1a9f876d3dafd47bc6b3dde25135fa, type: 3}
-  fireRateSound: {fileID: 8300000, guid: 5e1a9f876d3dafd47bc6b3dde25135fa, type: 3}
+  clickSound: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
+  fastSound: {fileID: 8300000, guid: 2b21ef916f6943c439b71a7c74568878, type: 3}
+  jumpSound: {fileID: 8300000, guid: 88b1cbe3caa3fee4b8b103b5edd7aba9, type: 3}
+  healthSound: {fileID: 8300000, guid: cfce0cea076109f478783201b2a9f57f, type: 3}
+  characterDamageSound: {fileID: 8300000, guid: 5c7b6d4002009e842bd2621585546d19, type: 3}
+  droneDamageSound: {fileID: 8300000, guid: b0e62ed71b1538648b719821f4f63b4c, type: 3}
+  fireRateSound: {fileID: 8300000, guid: 21c4a490b24ba2045bc815f7626a40ef, type: 3}
 --- !u!82 &1119276948
 AudioSource:
   m_ObjectHideFlags: 0
@@ -64981,7 +64984,7 @@ MonoBehaviour:
   maxHealth: 100
   PoisonDemageValue: 1
   currentHealth: 0
-  soundPoison: {fileID: 8300000, guid: eaae8fe8d600e1f459f34aa5757fa3b8, type: 3}
+  soundPoison: {fileID: 8300000, guid: 83829ff414f47a048b5387e4ab33571c, type: 3}
   healthSlider: {fileID: 1945789473}
   Healthtext: {fileID: 0}
 --- !u!114 &6615662580611611648
