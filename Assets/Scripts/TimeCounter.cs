@@ -11,7 +11,7 @@ public class TimeCounter : MonoBehaviour
     private float currentTime = 0f;
     private TMP_Text counterText;
     public BoxSpawn boxSpawnScript;     // BoxSpawn script referansý
-    public NewNPCSpawner NewNpcSpawnScript, NewNpcSpawnScript2, NewNpcSpawnScript3; // NPCSpawner script referansý
+    public NewNPCSpawner NewNpcSpawnScript, NewNpcSpawnScript2, NewNpcSpawnScript3, NewNpcSpawnScript4; // NPCSpawner script referansý
 
     private bool everyTenSeconds = true;
     private bool everyMinute = true;
@@ -43,7 +43,8 @@ public class TimeCounter : MonoBehaviour
         if (seconds % 10 == 0 && everyTenSeconds)
         {
             NewNpcSpawnScript.SpawnNPC(1);       // Her 10 saniyede yapýlacak iþlemler
-            NewNpcSpawnScript2.SpawnNPC(1);      // Her 10 saniyede yapýlacak iþlemler
+            NewNpcSpawnScript2.SpawnNPC(2);      // Her 10 saniyede yapýlacak iþlemler
+            NewNpcSpawnScript4.SpawnNPC(1);      // Her 10 saniyede yapýlacak iþlemler
             //NewNpcSpawnScript2.SpawnNPC();      // Her 10 saniyede yapýlacak iþlemler
             //NewNpcSpawnScript3.SpawnNPC();      // Her 10 saniyede yapýlacak iþlemler
             everyTenSeconds = false;            // Deðiþkeni eþitle
@@ -52,6 +53,7 @@ public class TimeCounter : MonoBehaviour
         if (seconds % 20 == 0 && everyTwentySeconds)
         {
             NewNpcSpawnScript3.SpawnNPC(1);      // Her 10 saniyede yapýlacak iþlemler
+            NewNpcSpawnScript2.SpawnNPC(1);      // Her 10 saniyede yapýlacak iþlemler
             //NewNpcSpawnScript2.SpawnNPC();      // Her 10 saniyede yapýlacak iþlemler
             //NewNpcSpawnScript3.SpawnNPC();      // Her 10 saniyede yapýlacak iþlemler
             everyTwentySeconds = false;            // Deðiþkeni eþitle
