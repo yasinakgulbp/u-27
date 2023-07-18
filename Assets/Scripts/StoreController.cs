@@ -116,4 +116,94 @@ public class StoreController : MonoBehaviour
         panel.SetActive(true);
         PlayerPrefs.SetInt("kask", 3);
     }
+
+    public void SatýnAlim6()
+    {
+        money = PlayerPrefs.GetInt("money");
+        money = money - 500;
+        PlayerPrefs.SetInt("money", money);
+        MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
+        audioSource.clip = buySound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 3);
+    }
+
+    public void SatýnAlim7()
+    {
+        money = PlayerPrefs.GetInt("money");
+        money = money - 500;
+        PlayerPrefs.SetInt("money", money);
+        MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
+        audioSource.clip = buySound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 3);
+    }
+
+    public void SatýnAlim8()
+    {
+        money = PlayerPrefs.GetInt("money");
+        money = money - 500;
+        PlayerPrefs.SetInt("money", money);
+        MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
+        audioSource.clip = buySound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 3);
+    }
+
+    public void SatýnAlim9()
+    {
+        money = PlayerPrefs.GetInt("money");
+        money = money - 500;
+        PlayerPrefs.SetInt("money", money);
+        MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
+        audioSource.clip = buySound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 3);
+    }
+
+    public void SatýnAlim10()
+    {
+        money = PlayerPrefs.GetInt("money");
+        money = money - 500;
+        PlayerPrefs.SetInt("money", money);
+        MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
+        MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
+        audioSource.clip = buySound; // Ses dosyasýný atama
+        audioSource.Play(); // Ses dosyasýný çal
+        if (money <= 100)
+        {
+            audioSource.clip = notbuySound; // Ses dosyasýný atama
+            audioSource.Play(); // Ses dosyasýný çal
+        }
+        panel.SetActive(true);
+        PlayerPrefs.SetInt("kask", 3);
+    }
 }
