@@ -8,6 +8,14 @@ public class kask : MonoBehaviour
     public GameObject kaskmavi;
     public GameObject kaskmor;
     public GameObject casco;
+    public GameObject kaskaltin;
+    public GameObject kaskyesil;
+    public GameObject kaskkirmizi;
+    public GameObject cascosarimavi;
+    public GameObject kaskmetalik;
+    public GameObject fullbody;
+    public GameObject fullbody1;
+    public GameObject fullbody2;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +26,14 @@ public class kask : MonoBehaviour
             kaskmor.SetActive(false);
             casco.SetActive(false);
             kaskmavi.SetActive(true);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
+
         }
         if (PlayerPrefs.GetInt("kask") == 2)
         {
@@ -25,6 +41,13 @@ public class kask : MonoBehaviour
             kaskmor.SetActive(true);
             casco.SetActive(false);
             kaskmavi.SetActive(false);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
         }
         if (PlayerPrefs.GetInt("kask") == 3)
         {
@@ -32,6 +55,13 @@ public class kask : MonoBehaviour
             kaskmor.SetActive(false);
             kaskmavi.SetActive(false);
             casco.SetActive(true);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
         }
     }
 
