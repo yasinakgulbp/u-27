@@ -124,7 +124,7 @@ public class StoreController : MonoBehaviour
     public void SatýnAlim6()
     {
         money = PlayerPrefs.GetInt("money");
-        money = money - 500;
+        money = money - 600;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
@@ -142,7 +142,7 @@ public class StoreController : MonoBehaviour
     public void SatýnAlim7()
     {
         money = PlayerPrefs.GetInt("money");
-        money = money - 500;
+        money = money - 1000;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
@@ -160,7 +160,7 @@ public class StoreController : MonoBehaviour
     public void SatýnAlim8()
     {
         money = PlayerPrefs.GetInt("money");
-        money = money - 500;
+        money = money - 10000;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
@@ -178,7 +178,7 @@ public class StoreController : MonoBehaviour
     public void SatýnAlim9()
     {
         money = PlayerPrefs.GetInt("money");
-        money = money - 500;
+        money = money - 50000;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
@@ -196,7 +196,7 @@ public class StoreController : MonoBehaviour
     public void SatýnAlim10()
     {
         money = PlayerPrefs.GetInt("money");
-        money = money - 500;
+        money = money - 100000;
         PlayerPrefs.SetInt("money", money);
         MoneyCount.text = PlayerPrefs.GetInt("money").ToString();
         MoneyCount2.text = PlayerPrefs.GetInt("money").ToString();
