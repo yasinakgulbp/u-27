@@ -63,6 +63,34 @@ public class kask : MonoBehaviour
             fullbody1.SetActive(false);
             fullbody2.SetActive(false);
         }
+        if (PlayerPrefs.GetInt("kask") == 4)
+        {
+            kask1.SetActive(false);
+            kaskmor.SetActive(false);
+            kaskmavi.SetActive(false);
+            casco.SetActive(false);
+            kaskaltin.SetActive(true);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
+        }
+        if (PlayerPrefs.GetInt("kask") == 5)
+        {
+            kask1.SetActive(false);
+            kaskmor.SetActive(false);
+            kaskmavi.SetActive(false);
+            casco.SetActive(false);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(true);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
+        }
     }
 
     // Update is called once per frame
