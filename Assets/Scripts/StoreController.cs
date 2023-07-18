@@ -136,7 +136,7 @@ public class StoreController : MonoBehaviour
             audioSource.Play(); // Ses dosyasýný çal
         }
         panel.SetActive(true);
-        PlayerPrefs.SetInt("kask", 3);
+        PlayerPrefs.SetInt("kask", 6);
     }
 
     public void SatýnAlim7()
@@ -154,7 +154,7 @@ public class StoreController : MonoBehaviour
             audioSource.Play(); // Ses dosyasýný çal
         }
         panel.SetActive(true);
-        PlayerPrefs.SetInt("kask", 3);
+        PlayerPrefs.SetInt("kask", 7);
     }
 
     public void SatýnAlim8()
@@ -172,7 +172,7 @@ public class StoreController : MonoBehaviour
             audioSource.Play(); // Ses dosyasýný çal
         }
         panel.SetActive(true);
-        PlayerPrefs.SetInt("kask", 3);
+        PlayerPrefs.SetInt("kask", 8);
     }
 
     public void SatýnAlim9()
@@ -190,7 +190,7 @@ public class StoreController : MonoBehaviour
             audioSource.Play(); // Ses dosyasýný çal
         }
         panel.SetActive(true);
-        PlayerPrefs.SetInt("kask", 3);
+        PlayerPrefs.SetInt("kask", 9);
     }
 
     public void SatýnAlim10()
@@ -208,6 +208,6 @@ public class StoreController : MonoBehaviour
             audioSource.Play(); // Ses dosyasýný çal
         }
         panel.SetActive(true);
-        PlayerPrefs.SetInt("kask", 3);
+        PlayerPrefs.SetInt("kask", 10);
     }
 }

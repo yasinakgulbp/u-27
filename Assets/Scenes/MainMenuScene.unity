@@ -10961,7 +10961,7 @@ GameObject:
   - component: {fileID: 1061643447}
   - component: {fileID: 1061643450}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: "Sat\u0131nAlimKartPaneli"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

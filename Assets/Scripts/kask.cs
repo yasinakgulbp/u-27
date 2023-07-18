@@ -8,6 +8,7 @@ public class kask : MonoBehaviour
     public GameObject kaskmavi;
     public GameObject kaskmor;
     public GameObject casco;
+    public GameObject cascobeyaz;
     public GameObject kaskaltin;
     public GameObject kaskyesil;
     public GameObject kaskkirmizi;
@@ -33,6 +34,7 @@ public class kask : MonoBehaviour
             kaskmetalik.SetActive(false);
             fullbody1.SetActive(false);
             fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
 
         }
         if (PlayerPrefs.GetInt("kask") == 2)
@@ -48,6 +50,7 @@ public class kask : MonoBehaviour
             kaskmetalik.SetActive(false);
             fullbody1.SetActive(false);
             fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
         }
         if (PlayerPrefs.GetInt("kask") == 3)
         {
@@ -62,6 +65,7 @@ public class kask : MonoBehaviour
             kaskmetalik.SetActive(false);
             fullbody1.SetActive(false);
             fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
         }
         if (PlayerPrefs.GetInt("kask") == 4)
         {
@@ -76,6 +80,7 @@ public class kask : MonoBehaviour
             kaskmetalik.SetActive(false);
             fullbody1.SetActive(false);
             fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
         }
         if (PlayerPrefs.GetInt("kask") == 5)
         {
@@ -90,6 +95,82 @@ public class kask : MonoBehaviour
             kaskmetalik.SetActive(false);
             fullbody1.SetActive(false);
             fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
+        }
+        if (PlayerPrefs.GetInt("kask") == 6)
+        {
+            kask1.SetActive(false);
+            kaskmor.SetActive(false);
+            kaskmavi.SetActive(false);
+            casco.SetActive(false);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(true);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
+        }
+        if (PlayerPrefs.GetInt("kask") == 7)
+        {
+            kask1.SetActive(false);
+            kaskmor.SetActive(false);
+            kaskmavi.SetActive(false);
+            casco.SetActive(false);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(true);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
+        }
+        if (PlayerPrefs.GetInt("kask") == 8)
+        {
+            kask1.SetActive(false);
+            kaskmor.SetActive(false);
+            kaskmavi.SetActive(false);
+            casco.SetActive(false);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(true);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
+        }
+        if (PlayerPrefs.GetInt("kask") == 9)
+        {
+            kask1.SetActive(false);
+            kaskmor.SetActive(false);
+            kaskmavi.SetActive(false);
+            casco.SetActive(false);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(true);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(true);
+            fullbody2.SetActive(false);
+            cascobeyaz.SetActive(false);
+        }
+        if (PlayerPrefs.GetInt("kask") == 10)
+        {
+            kask1.SetActive(false);
+            kaskmor.SetActive(false);
+            kaskmavi.SetActive(false);
+            casco.SetActive(false);
+            kaskaltin.SetActive(false);
+            kaskyesil.SetActive(false);
+            kaskkirmizi.SetActive(false);
+            cascosarimavi.SetActive(false);
+            kaskmetalik.SetActive(false);
+            fullbody1.SetActive(false);
+            fullbody2.SetActive(true);
+            cascobeyaz.SetActive(true);
         }
     }
 
