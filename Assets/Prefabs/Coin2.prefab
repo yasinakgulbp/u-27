@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db138e514e3cba42af3a86c01418cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sliderIncrement: 15
+  sliderIncrement: 3
   coinCountText: {fileID: 0}
 --- !u!114 &3409484402501800975
 MonoBehaviour:
@@ -177,6 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   magnetDuration: 5
+  coinMagnetForce: 150
 --- !u!1001 &185746719724939248
 PrefabInstance:
   m_ObjectHideFlags: 0
