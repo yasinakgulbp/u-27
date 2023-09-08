@@ -10,7 +10,6 @@
 - Aysenem Zobalak: Scrum Master
 - Merve Gençer: Developer
 - Ekin Deniz Özcan: Developer
-- Demet Işın: Developer
 
 ## Ürün İsmi
 
