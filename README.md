@@ -6,7 +6,7 @@
 
 ## Takım Elemanları
 
-- Yasin Akgül: Product Owner
+- Yasin Akgül: Product Owner, Developer
 - Aysenem Zobalak: Scrum Master
 - Merve Gençer: Developer
 - Ekin Deniz Özcan: Developer
